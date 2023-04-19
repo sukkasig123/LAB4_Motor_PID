@@ -1,0 +1,1276 @@
+2023-04-19 00:33:43,853 [INFO] MainUpdater:2854 - connection check result : 10
+2023-04-19 00:33:43,864 [INFO] MainUpdater:2854 - connection check result : 10
+2023-04-19 00:33:43,873 [INFO] MicroXplorer:468 - Change Database Path : 
+2023-04-19 00:33:43,873 [INFO] MicroXplorer:498 - Change Database Version : DB.6.0.80
+2023-04-19 00:33:43,885 [WARN] ThirdParty:871 - waiting for thirdparty lock release [close project]
+2023-04-19 00:33:43,885 [INFO] ThirdParty:873 - entering critical section [close project]
+2023-04-19 00:33:43,885 [INFO] ThirdParty:883 - exiting critical section [close project]
+2023-04-19 00:33:43,886 [INFO] PinOutPanel:1499 - setPackage(No Configuration,No Configuration)
+2023-04-19 00:33:43,890 [WARN] IpParametersView:150 - Warning: This peripheral hasn't parameters
+2023-04-19 00:33:43,892 [WARN] MainPanel:257 - <html><b><center>Warning: This peripheral has no parameters to be configured<br></b></html>
+2023-04-19 00:33:43,893 [INFO] UtilMem:75 - Begin LoadConfig() Used Memory: 590316512 Bytes (824180736)
+2023-04-19 00:33:43,894 [INFO] MicroXplorer:468 - Change Database Path : 
+2023-04-19 00:33:43,894 [INFO] MicroXplorer:498 - Change Database Version : DB.6.0.80
+2023-04-19 00:33:43,894 [INFO] OpenFileManager:308 - Change cursor
+2023-04-19 00:33:43,905 [INFO] RulesReader:64 - Compatibility file has been processed (293 Rules)
+2023-04-19 00:33:43,907 [INFO] Mcu:1937 - Initializing MCU STM32F411R(C-E)Tx STM32F411RETx STM32F411RET6
+2023-04-19 00:33:44,650 [INFO] Context:659 - Trying to add GPIOservice into a context  which must be forbidden
+2023-04-19 00:33:44,799 [INFO] ApiDbMcu:507 - Load IP Config File for ARM.CMSIS.5.6.0
+2023-04-19 00:33:44,914 [INFO] RtosManager:555 - Registered RTOS mode: class=CMSIS, group=RTOS, mode=CMSIS_V1, owner=FREERTOS
+2023-04-19 00:33:44,914 [INFO] RtosManager:555 - Registered RTOS mode: class=CMSIS, group=RTOS2, mode=CMSIS_V2, owner=FREERTOS
+2023-04-19 00:33:44,914 [INFO] RtosManager:555 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V1, owner=FREERTOS
+2023-04-19 00:33:44,914 [INFO] RtosManager:555 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V2, owner=FREERTOS
+2023-04-19 00:33:44,914 [WARN] ModelIntegratedComponent:184 - Missing modes for component STMicroelectronics:FreeRTOS:0.0.1:STMicroelectronics:RTOS:FreeRTOS:Core:::10.2.0:
+2023-04-19 00:33:44,916 [WARN] ModelIntegratedComponent:182 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:Audio HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2023-04-19 00:33:44,916 [WARN] ModelIntegratedComponent:188 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:Audio HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2023-04-19 00:33:44,916 [WARN] ModelIntegratedComponent:182 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:CDC HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2023-04-19 00:33:44,916 [WARN] ModelIntegratedComponent:188 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:CDC HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2023-04-19 00:33:44,917 [WARN] ModelIntegratedComponent:182 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:MSC HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2023-04-19 00:33:44,917 [WARN] ModelIntegratedComponent:188 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:MSC HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2023-04-19 00:33:44,917 [WARN] ModelIntegratedComponent:182 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:HID HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2023-04-19 00:33:44,917 [WARN] ModelIntegratedComponent:188 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:HID HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2023-04-19 00:33:44,917 [WARN] ModelIntegratedComponent:182 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:MTP HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2023-04-19 00:33:44,917 [WARN] ModelIntegratedComponent:188 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:MTP HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2023-04-19 00:33:44,921 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-19 00:33:44,921 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-19 00:33:44,921 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-19 00:33:44,921 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-19 00:33:44,921 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-19 00:33:44,921 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-19 00:33:44,921 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-19 00:33:44,921 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-19 00:33:44,921 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-19 00:33:44,921 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-19 00:33:44,921 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-19 00:33:44,921 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-19 00:33:44,921 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-19 00:33:44,922 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-19 00:33:44,922 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-19 00:33:44,922 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-19 00:33:44,922 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-19 00:33:44,922 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-19 00:33:44,922 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-19 00:33:44,922 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-19 00:33:44,922 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-19 00:33:44,922 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-19 00:33:44,922 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-19 00:33:44,922 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-19 00:33:44,922 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-19 00:33:44,922 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-19 00:33:44,922 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-19 00:33:44,922 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-19 00:33:44,922 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-19 00:33:44,922 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-19 00:33:44,922 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-19 00:33:44,922 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-19 00:33:44,922 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-19 00:33:44,982 [WARN] ModelIntegratedComponent:182 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:Audio HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2023-04-19 00:33:44,982 [WARN] ModelIntegratedComponent:188 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:Audio HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2023-04-19 00:33:44,982 [WARN] ModelIntegratedComponent:182 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:CDC HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2023-04-19 00:33:44,982 [WARN] ModelIntegratedComponent:188 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:CDC HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2023-04-19 00:33:44,982 [WARN] ModelIntegratedComponent:182 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:DFU HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2023-04-19 00:33:44,982 [WARN] ModelIntegratedComponent:188 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:DFU HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2023-04-19 00:33:44,982 [WARN] ModelIntegratedComponent:182 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:HID HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2023-04-19 00:33:44,982 [WARN] ModelIntegratedComponent:188 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:HID HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2023-04-19 00:33:44,983 [WARN] ModelIntegratedComponent:182 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:Custom HID HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2023-04-19 00:33:44,983 [WARN] ModelIntegratedComponent:188 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:Custom HID HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2023-04-19 00:33:44,983 [WARN] ModelIntegratedComponent:182 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:MSC HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2023-04-19 00:33:44,983 [WARN] ModelIntegratedComponent:188 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:MSC HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2023-04-19 00:33:45,125 [INFO] ThirdPartyModel:298 - Start build external matchings
+2023-04-19 00:33:45,577 [INFO] ThirdPartyModel:316 - End build external matchings
+2023-04-19 00:33:45,588 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (RCC) : Parameter (48MHZClocksFreq_Value) has invalid value (84000000)
+2023-04-19 00:33:45,589 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (RCC) : Parameter (FLatency) has Id (AdvancedSettings) currently not set
+2023-04-19 00:33:45,589 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (RCC) : Parameter (RTCHSEDivFreq_Value) has invalid value (4000000)
+2023-04-19 00:33:45,773 [INFO] UtilMem:75 - End LoadConfig() Used Memory: 398549296 Bytes (824180736)
+2023-04-19 00:33:45,805 [WARN] ThirdParty:833 - waiting for thirdparty lock release [change project]
+2023-04-19 00:33:45,805 [INFO] ThirdParty:835 - entering critical section [change project]
+2023-04-19 00:33:45,805 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ISPU 1.1.0
+2023-04-19 00:33:45,805 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :RoweBots I-CUBE-UNISONRTOS 5.5.0-4
+2023-04-19 00:33:45,805 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 6.0.0
+2023-04-19 00:33:45,805 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 2.0.0
+2023-04-19 00:33:45,805 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F4 1.1.0
+2023-04-19 00:33:45,805 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics LIBJPEG 8.0.0
+2023-04-19 00:33:45,805 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SMBUS 2.1.0
+2023-04-19 00:33:45,805 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 3.0.0
+2023-04-19 00:33:45,805 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 8.0.0
+2023-04-19 00:33:45,805 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-FREERTOS 1.0.0
+2023-04-19 00:33:45,805 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-FREERTOS 1.0.1
+2023-04-19 00:33:45,805 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.21.1
+2023-04-19 00:33:45,805 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.21.0
+2023-04-19 00:33:45,805 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.21.3
+2023-04-19 00:33:45,805 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F7 1.1.0
+2023-04-19 00:33:45,805 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 9.4.0
+2023-04-19 00:33:45,805 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 2.0.0
+2023-04-19 00:33:45,805 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 7.3.0
+2023-04-19 00:33:45,805 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.3.0
+2023-04-19 00:33:45,805 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 6.2.4
+2023-04-19 00:33:45,805 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L5 1.1.0
+2023-04-19 00:33:45,805 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2023-04-19 00:33:45,805 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :emotas I-CUBE-CANOPEN 1.1.3
+2023-04-19 00:33:45,805 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G0 1.1.0
+2023-04-19 00:33:45,805 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLEMGR 2.0.0
+2023-04-19 00:33:45,805 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 5.0.0
+2023-04-19 00:33:45,806 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 3.0.0
+2023-04-19 00:33:45,806 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics STM32_WPAN 1.0.0
+2023-04-19 00:33:45,806 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.0.3
+2023-04-19 00:33:45,806 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 2.0.5
+2023-04-19 00:33:45,806 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 1.0.0
+2023-04-19 00:33:45,806 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.1.0
+2023-04-19 00:33:45,806 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 3.1.0
+2023-04-19 00:33:45,806 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.3.0
+2023-04-19 00:33:45,806 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-ASTRA1 1.1.1
+2023-04-19 00:33:45,806 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.3.0
+2023-04-19 00:33:45,806 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DISPLAY 3.0.0
+2023-04-19 00:33:45,806 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLEMGR 1.3.0
+2023-04-19 00:33:45,806 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G4 1.0.0
+2023-04-19 00:33:45,806 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-SIGFOX1 3.2.0
+2023-04-19 00:33:45,806 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfSSL 5.5.4
+2023-04-19 00:33:45,806 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L4 1.0.0
+2023-04-19 00:33:45,806 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics HAL Drivers 0.0.0
+2023-04-19 00:33:45,806 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.16.2
+2023-04-19 00:33:45,806 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.14.1
+2023-04-19 00:33:45,806 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC7 1.0.0
+2023-04-19 00:33:45,806 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WL 1.0.0
+2023-04-19 00:33:45,806 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 4.1.0
+2023-04-19 00:33:45,806 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :portGmbH I-Cube-SoM-uGOAL 1.1.0
+2023-04-19 00:33:45,806 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALS 1.0.1
+2023-04-19 00:33:45,806 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 9.5.0
+2023-04-19 00:33:45,806 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :ARM CMSIS 5.6.0
+2023-04-19 00:33:45,806 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics ThreadX 1.0.0
+2023-04-19 00:33:45,806 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WB 1.1.0
+2023-04-19 00:33:45,806 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :SEGGER I-CUBE-embOS 1.3.1
+2023-04-19 00:33:45,806 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 1.0.0
+2023-04-19 00:33:45,806 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :SEGGER I-CUBE-embOS 1.3.0
+2023-04-19 00:33:45,806 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics ThreadX 0.0.2
+2023-04-19 00:33:45,806 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :WES I-CUBE-Cesium 1.3.0
+2023-04-19 00:33:45,806 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-ASTRA1 2.0.0
+2023-04-19 00:33:45,806 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.1.2
+2023-04-19 00:33:45,806 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SFXS2LP1 4.0.0
+2023-04-19 00:33:45,806 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.3.0
+2023-04-19 00:33:45,807 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DISPLAY 2.2.0
+2023-04-19 00:33:45,807 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.2.0
+2023-04-19 00:33:45,807 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.2.0
+2023-04-19 00:33:45,807 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 3.0.0
+2023-04-19 00:33:45,807 [INFO] ThirdParty:841 - exiting critical section [change project]
+2023-04-19 00:33:45,937 [INFO] PinOutPanel:1499 - setPackage(No Configuration,No Configuration)
+2023-04-19 00:33:45,938 [INFO] PinOutPanel:1499 - setPackage(STM32F411RETx,LQFP64)
+2023-04-19 00:33:46,140 [INFO] UtilMem:75 - Before build in PCC Used Memory: 407131960 Bytes (824180736)
+2023-04-19 00:33:46,313 [INFO] UtilMem:75 - After build in PCC Used Memory: 451694392 Bytes (824180736)
+2023-04-19 00:33:46,327 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-19 00:33:46,327 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-19 00:33:46,327 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-19 00:33:46,327 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-19 00:33:46,327 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-19 00:33:46,328 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-19 00:33:46,328 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-19 00:33:46,328 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-19 00:33:46,328 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-19 00:33:46,328 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-19 00:33:46,328 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-19 00:33:46,328 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-19 00:33:46,328 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-19 00:33:46,328 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-19 00:33:46,328 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-19 00:33:46,328 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-19 00:33:46,329 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-19 00:33:46,329 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-19 00:33:46,329 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-19 00:33:46,329 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-19 00:33:46,329 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-19 00:33:46,329 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-19 00:33:46,329 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-19 00:33:46,330 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-19 00:33:46,330 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-19 00:33:46,330 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-19 00:33:46,330 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-19 00:33:46,330 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-19 00:33:46,330 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-19 00:33:46,330 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-19 00:33:46,331 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-19 00:33:46,331 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-19 00:33:46,331 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-19 00:33:46,331 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-19 00:33:46,331 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-19 00:33:46,332 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-19 00:33:46,332 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-19 00:33:46,332 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-19 00:33:46,332 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-19 00:33:46,332 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-19 00:33:46,333 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-19 00:33:46,333 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-19 00:33:46,333 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-19 00:33:46,333 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-19 00:33:46,335 [INFO] ApiDbMcu:507 - Load IP Config File for PDM2PCM
+2023-04-19 00:33:46,371 [INFO] CADModel:165 - CPN selected for project levelSTM32F411RET6
+2023-04-19 00:33:46,371 [INFO] CADModel:114 - Register for checkConnection events
+2023-04-19 00:33:46,427 [INFO] OpenFileManager:328 - Restore cursor
+2023-04-19 00:35:03,013 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 395197240 Bytes (824180736)
+2023-04-19 00:35:03,234 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-04-19 00:35:03,234 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-04-19 00:35:03,235 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8
+2023-04-19 00:35:03,235 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8
+2023-04-19 00:35:03,235 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: ARM.CMSIS.5.6.0
+2023-04-19 00:35:03,235 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-04-19 00:35:03,235 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-04-19 00:35:03,235 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-04-19 00:35:03,235 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8-M TZ Device' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:03,235 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8-M TZ Device' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:03,236 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8-M TZ Device' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:03,236 [WARN] ThirdPartyIpManager:480 - Condition 'CM0_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:03,236 [WARN] ThirdPartyIpManager:480 - Condition 'CM0_BE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:03,237 [WARN] ThirdPartyIpManager:480 - Condition 'CM1_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:03,237 [WARN] ThirdPartyIpManager:480 - Condition 'CM1_BE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:03,237 [WARN] ThirdPartyIpManager:480 - Condition 'CM3_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:03,237 [WARN] ThirdPartyIpManager:480 - Condition 'CM3_BE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:03,237 [WARN] ThirdPartyIpManager:480 - Condition 'CM4_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:03,237 [WARN] ThirdPartyIpManager:480 - Condition 'CM4_BE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:03,237 [WARN] ThirdPartyIpManager:480 - Condition 'CM4_FP_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:03,237 [WARN] ThirdPartyIpManager:480 - Condition 'CM4_FP_BE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:03,237 [WARN] ThirdPartyIpManager:480 - Condition 'CM7_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:03,237 [WARN] ThirdPartyIpManager:480 - Condition 'CM7_BE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:03,237 [WARN] ThirdPartyIpManager:480 - Condition 'CM7_SP_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:03,237 [WARN] ThirdPartyIpManager:480 - Condition 'CM7_SP_BE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:03,237 [WARN] ThirdPartyIpManager:480 - Condition 'CM7_DP_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:03,237 [WARN] ThirdPartyIpManager:480 - Condition 'CM7_DP_BE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:03,237 [WARN] ThirdPartyIpManager:480 - Condition 'CM23_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:03,237 [WARN] ThirdPartyIpManager:480 - Condition 'CM33_NODSP_NOFPU_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:03,237 [WARN] ThirdPartyIpManager:480 - Condition 'CM33_DSP_NOFPU_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:03,237 [WARN] ThirdPartyIpManager:480 - Condition 'CM33_NODSP_SP_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:03,237 [WARN] ThirdPartyIpManager:480 - Condition 'CM33_DSP_SP_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:03,237 [WARN] ThirdPartyIpManager:480 - Condition 'CM35P_NODSP_NOFPU_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:03,237 [WARN] ThirdPartyIpManager:480 - Condition 'CM35P_DSP_NOFPU_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:03,237 [WARN] ThirdPartyIpManager:480 - Condition 'CM35P_NODSP_SP_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:03,237 [WARN] ThirdPartyIpManager:480 - Condition 'CM35P_DSP_SP_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:03,238 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8MBL_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:03,238 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8MML_NODSP_NOFPU_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:03,238 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8MML_DSP_NOFPU_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:03,238 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8MML_NODSP_SP_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:03,238 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8MML_DSP_SP_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:03,238 [WARN] ThirdPartyIpManager:480 - Condition 'CM0_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:03,238 [WARN] ThirdPartyIpManager:480 - Condition 'CM1_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:03,238 [WARN] ThirdPartyIpManager:480 - Condition 'CM3_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:03,238 [WARN] ThirdPartyIpManager:480 - Condition 'CM4_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:03,238 [WARN] ThirdPartyIpManager:480 - Condition 'CM7_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:03,238 [WARN] ThirdPartyIpManager:480 - Condition 'CM7_SP_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:03,238 [WARN] ThirdPartyIpManager:480 - Condition 'CM7_DP_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:03,238 [WARN] ThirdPartyIpManager:480 - Condition 'CM23_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:03,239 [WARN] ThirdPartyIpManager:480 - Condition 'CM33_NODSP_NOFPU_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:03,239 [WARN] ThirdPartyIpManager:480 - Condition 'CM33_DSP_NOFPU_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:03,239 [WARN] ThirdPartyIpManager:480 - Condition 'CM33_NODSP_SP_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:03,239 [WARN] ThirdPartyIpManager:480 - Condition 'CM33_DSP_SP_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:03,239 [WARN] ThirdPartyIpManager:480 - Condition 'CM35P_NODSP_NOFPU_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:03,239 [WARN] ThirdPartyIpManager:480 - Condition 'CM35P_DSP_NOFPU_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:03,239 [WARN] ThirdPartyIpManager:480 - Condition 'CM35P_NODSP_SP_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:03,239 [WARN] ThirdPartyIpManager:480 - Condition 'CM35P_DSP_SP_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:03,239 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8MBL_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:03,239 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8MML_NODSP_NOFPU_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:03,239 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8MML_DSP_NOFPU_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:03,239 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8MML_NODSP_SP_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:03,239 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8MML_DSP_SP_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:03,239 [WARN] ThirdPartyIpManager:480 - Condition 'CM0_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:03,240 [WARN] ThirdPartyIpManager:480 - Condition 'CM0_BE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:03,240 [WARN] ThirdPartyIpManager:480 - Condition 'CM1_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:03,240 [WARN] ThirdPartyIpManager:480 - Condition 'CM1_BE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:03,240 [WARN] ThirdPartyIpManager:480 - Condition 'CM3_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:03,240 [WARN] ThirdPartyIpManager:480 - Condition 'CM3_BE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:03,240 [WARN] ThirdPartyIpManager:480 - Condition 'CM4_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:03,240 [WARN] ThirdPartyIpManager:480 - Condition 'CM4_BE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:03,240 [WARN] ThirdPartyIpManager:480 - Condition 'CM4_FP_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:03,240 [WARN] ThirdPartyIpManager:480 - Condition 'CM4_FP_BE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:03,240 [WARN] ThirdPartyIpManager:480 - Condition 'CM7_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:03,240 [WARN] ThirdPartyIpManager:480 - Condition 'CM7_BE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:03,240 [WARN] ThirdPartyIpManager:480 - Condition 'CM7_DP_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:03,240 [WARN] ThirdPartyIpManager:480 - Condition 'CM7_DP_BE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:03,240 [WARN] ThirdPartyIpManager:480 - Condition 'CM7_SP_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:03,240 [WARN] ThirdPartyIpManager:480 - Condition 'CM7_SP_BE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:03,241 [WARN] ThirdPartyIpManager:480 - Condition 'CM23_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:03,241 [WARN] ThirdPartyIpManager:480 - Condition 'CM33_NODSP_NOFPU_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:03,241 [WARN] ThirdPartyIpManager:480 - Condition 'CM33_DSP_NOFPU_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:03,241 [WARN] ThirdPartyIpManager:480 - Condition 'CM33_NODSP_SP_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:03,241 [WARN] ThirdPartyIpManager:480 - Condition 'CM33_DSP_SP_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:03,241 [WARN] ThirdPartyIpManager:480 - Condition 'CM35P_NODSP_NOFPU_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:03,241 [WARN] ThirdPartyIpManager:480 - Condition 'CM35P_DSP_NOFPU_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:03,241 [WARN] ThirdPartyIpManager:480 - Condition 'CM35P_NODSP_SP_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:03,241 [WARN] ThirdPartyIpManager:480 - Condition 'CM35P_DSP_SP_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:03,241 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8MBL_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:03,241 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8MML_NODSP_NOFPU_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:03,241 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8MML_DSP_NOFPU_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:03,241 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8MML_NODSP_SP_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:03,242 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8MML_DSP_SP_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:03,242 [INFO] CodeGenerator:793 - code generatio: config db path: D:\ST\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.0.202302231600\\db\
+2023-04-19 00:35:03,484 [INFO] IP:3348 - RTE Config file name : RTE_Component
+2023-04-19 00:35:03,484 [INFO] IP:3366 - RTE template : RTE_Components.ftl
+2023-04-19 00:35:03,490 [INFO] CodeEngine:255 - oldGeneratedFile, D:\git\LAB4_01\Motor_PID\PID\MXTmpFiles\license.tmp_save
+2023-04-19 00:35:03,584 [INFO] CodeEngine:279 - Generated code: D:\git\LAB4_01\Motor_PID\PID\MXTmpFiles\license.tmp
+2023-04-19 00:35:03,606 [INFO] CodeEngine:255 - oldGeneratedFile, D:\git\LAB4_01\Motor_PID\PID\MXTmpFiles\gpio.tmp_save
+2023-04-19 00:35:03,704 [INFO] CodeEngine:279 - Generated code: D:\git\LAB4_01\Motor_PID\PID\MXTmpFiles\gpio.tmp
+2023-04-19 00:35:03,795 [INFO] CodeEngine:255 - oldGeneratedFile, D:\git\LAB4_01\Motor_PID\PID\Core\Src\stm32f4xx_it.c_save
+2023-04-19 00:35:04,016 [INFO] CodeEngine:279 - Generated code: D:\git\LAB4_01\Motor_PID\PID\Core\Src\stm32f4xx_it.c
+2023-04-19 00:35:04,021 [INFO] CodeEngine:255 - oldGeneratedFile, D:\git\LAB4_01\Motor_PID\PID\Core\Inc\stm32f4xx_it.h_save
+2023-04-19 00:35:04,093 [INFO] CodeEngine:279 - Generated code: D:\git\LAB4_01\Motor_PID\PID\Core\Inc\stm32f4xx_it.h
+2023-04-19 00:35:04,109 [INFO] CodeEngine:255 - oldGeneratedFile, D:\git\LAB4_01\Motor_PID\PID\Core\Src\stm32f4xx_hal_msp.c_save
+2023-04-19 00:35:04,213 [INFO] CodeEngine:279 - Generated code: D:\git\LAB4_01\Motor_PID\PID\Core\Src\stm32f4xx_hal_msp.c
+2023-04-19 00:35:04,217 [INFO] CodeEngine:255 - oldGeneratedFile, D:\git\LAB4_01\Motor_PID\PID\MXTmpFiles\system.tmp_save
+2023-04-19 00:35:04,281 [INFO] CodeEngine:279 - Generated code: D:\git\LAB4_01\Motor_PID\PID\MXTmpFiles\system.tmp
+2023-04-19 00:35:04,295 [INFO] CodeEngine:311 - oldGeneratedFile, D:\git\LAB4_01\Motor_PID\PID\Core\Inc\stm32f4xx_hal_conf.h_save
+2023-04-19 00:35:04,390 [INFO] CodeEngine:335 - Generated code: D:\git\LAB4_01\Motor_PID\PID\Core\Inc\stm32f4xx_hal_conf.h
+2023-04-19 00:35:04,412 [WARN] IPConfigManager:3431 - IP not found : TIM
+2023-04-19 00:35:04,412 [WARN] CodeGenerator:3754 - IP not found : null
+2023-04-19 00:35:04,424 [INFO] CodeEngine:255 - oldGeneratedFile, D:\git\LAB4_01\Motor_PID\PID\Core\Inc\main.h_save
+2023-04-19 00:35:04,526 [INFO] CodeEngine:279 - Generated code: D:\git\LAB4_01\Motor_PID\PID\Core\Inc\main.h
+2023-04-19 00:35:04,537 [INFO] CodeEngine:255 - oldGeneratedFile, D:\git\LAB4_01\Motor_PID\PID\Core\Src\main.c_save
+2023-04-19 00:35:04,667 [INFO] CodeEngine:279 - Generated code: D:\git\LAB4_01\Motor_PID\PID\Core\Src\main.c
+2023-04-19 00:35:05,449 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 296mS.
+2023-04-19 00:35:05,450 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8-M TZ Device' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:05,450 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8-M TZ Device' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:05,450 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8-M TZ Device' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:05,450 [WARN] ThirdPartyIpManager:480 - Condition 'CM0_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:05,450 [WARN] ThirdPartyIpManager:480 - Condition 'CM0_BE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:05,450 [WARN] ThirdPartyIpManager:480 - Condition 'CM1_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:05,450 [WARN] ThirdPartyIpManager:480 - Condition 'CM1_BE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:05,450 [WARN] ThirdPartyIpManager:480 - Condition 'CM3_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:05,450 [WARN] ThirdPartyIpManager:480 - Condition 'CM3_BE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:05,450 [WARN] ThirdPartyIpManager:480 - Condition 'CM4_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:05,450 [WARN] ThirdPartyIpManager:480 - Condition 'CM4_BE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:05,450 [WARN] ThirdPartyIpManager:480 - Condition 'CM4_FP_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:05,450 [WARN] ThirdPartyIpManager:480 - Condition 'CM4_FP_BE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:05,451 [WARN] ThirdPartyIpManager:480 - Condition 'CM7_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:05,451 [WARN] ThirdPartyIpManager:480 - Condition 'CM7_BE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:05,451 [WARN] ThirdPartyIpManager:480 - Condition 'CM7_SP_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:05,451 [WARN] ThirdPartyIpManager:480 - Condition 'CM7_SP_BE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:05,451 [WARN] ThirdPartyIpManager:480 - Condition 'CM7_DP_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:05,451 [WARN] ThirdPartyIpManager:480 - Condition 'CM7_DP_BE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:05,451 [WARN] ThirdPartyIpManager:480 - Condition 'CM23_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:05,451 [WARN] ThirdPartyIpManager:480 - Condition 'CM33_NODSP_NOFPU_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:05,451 [WARN] ThirdPartyIpManager:480 - Condition 'CM33_DSP_NOFPU_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:05,451 [WARN] ThirdPartyIpManager:480 - Condition 'CM33_NODSP_SP_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:05,451 [WARN] ThirdPartyIpManager:480 - Condition 'CM33_DSP_SP_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:05,451 [WARN] ThirdPartyIpManager:480 - Condition 'CM35P_NODSP_NOFPU_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:05,451 [WARN] ThirdPartyIpManager:480 - Condition 'CM35P_DSP_NOFPU_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:05,451 [WARN] ThirdPartyIpManager:480 - Condition 'CM35P_NODSP_SP_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:05,451 [WARN] ThirdPartyIpManager:480 - Condition 'CM35P_DSP_SP_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:05,451 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8MBL_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:05,452 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8MML_NODSP_NOFPU_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:05,452 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8MML_DSP_NOFPU_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:05,452 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8MML_NODSP_SP_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:05,452 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8MML_DSP_SP_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:05,452 [WARN] ThirdPartyIpManager:480 - Condition 'CM0_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:05,452 [WARN] ThirdPartyIpManager:480 - Condition 'CM1_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:05,452 [WARN] ThirdPartyIpManager:480 - Condition 'CM3_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:05,452 [WARN] ThirdPartyIpManager:480 - Condition 'CM4_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:05,452 [WARN] ThirdPartyIpManager:480 - Condition 'CM7_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:05,452 [WARN] ThirdPartyIpManager:480 - Condition 'CM7_SP_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:05,452 [WARN] ThirdPartyIpManager:480 - Condition 'CM7_DP_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:05,452 [WARN] ThirdPartyIpManager:480 - Condition 'CM23_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:05,452 [WARN] ThirdPartyIpManager:480 - Condition 'CM33_NODSP_NOFPU_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:05,452 [WARN] ThirdPartyIpManager:480 - Condition 'CM33_DSP_NOFPU_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:05,452 [WARN] ThirdPartyIpManager:480 - Condition 'CM33_NODSP_SP_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:05,453 [WARN] ThirdPartyIpManager:480 - Condition 'CM33_DSP_SP_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:05,453 [WARN] ThirdPartyIpManager:480 - Condition 'CM35P_NODSP_NOFPU_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:05,453 [WARN] ThirdPartyIpManager:480 - Condition 'CM35P_DSP_NOFPU_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:05,453 [WARN] ThirdPartyIpManager:480 - Condition 'CM35P_NODSP_SP_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:05,453 [WARN] ThirdPartyIpManager:480 - Condition 'CM35P_DSP_SP_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:05,453 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8MBL_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:05,453 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8MML_NODSP_NOFPU_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:05,453 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8MML_DSP_NOFPU_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:05,454 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8MML_NODSP_SP_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:05,454 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8MML_DSP_SP_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:05,454 [WARN] ThirdPartyIpManager:480 - Condition 'CM0_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:05,454 [WARN] ThirdPartyIpManager:480 - Condition 'CM0_BE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:05,454 [WARN] ThirdPartyIpManager:480 - Condition 'CM1_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:05,454 [WARN] ThirdPartyIpManager:480 - Condition 'CM1_BE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:05,454 [WARN] ThirdPartyIpManager:480 - Condition 'CM3_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:05,454 [WARN] ThirdPartyIpManager:480 - Condition 'CM3_BE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:05,454 [WARN] ThirdPartyIpManager:480 - Condition 'CM4_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:05,454 [WARN] ThirdPartyIpManager:480 - Condition 'CM4_BE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:05,454 [WARN] ThirdPartyIpManager:480 - Condition 'CM4_FP_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:05,454 [WARN] ThirdPartyIpManager:480 - Condition 'CM4_FP_BE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:05,454 [WARN] ThirdPartyIpManager:480 - Condition 'CM7_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:05,454 [WARN] ThirdPartyIpManager:480 - Condition 'CM7_BE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:05,454 [WARN] ThirdPartyIpManager:480 - Condition 'CM7_DP_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:05,454 [WARN] ThirdPartyIpManager:480 - Condition 'CM7_DP_BE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:05,454 [WARN] ThirdPartyIpManager:480 - Condition 'CM7_SP_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:05,455 [WARN] ThirdPartyIpManager:480 - Condition 'CM7_SP_BE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:05,455 [WARN] ThirdPartyIpManager:480 - Condition 'CM23_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:05,455 [WARN] ThirdPartyIpManager:480 - Condition 'CM33_NODSP_NOFPU_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:05,455 [WARN] ThirdPartyIpManager:480 - Condition 'CM33_DSP_NOFPU_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:05,455 [WARN] ThirdPartyIpManager:480 - Condition 'CM33_NODSP_SP_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:05,455 [WARN] ThirdPartyIpManager:480 - Condition 'CM33_DSP_SP_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:05,455 [WARN] ThirdPartyIpManager:480 - Condition 'CM35P_NODSP_NOFPU_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:05,455 [WARN] ThirdPartyIpManager:480 - Condition 'CM35P_DSP_NOFPU_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:05,455 [WARN] ThirdPartyIpManager:480 - Condition 'CM35P_NODSP_SP_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:05,455 [WARN] ThirdPartyIpManager:480 - Condition 'CM35P_DSP_SP_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:05,455 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8MBL_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:05,455 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8MML_NODSP_NOFPU_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:05,455 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8MML_DSP_NOFPU_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:05,456 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8MML_NODSP_SP_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:05,456 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8MML_DSP_SP_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 00:35:05,520 [INFO] ProjectBuilder:8409 - Time for Copy ThirdParty[1] : 64mS.
+2023-04-19 00:35:05,564 [INFO] ProjectBuilder:8409 - Time for Copy ThirdParty[1] : 44mS.
+2023-04-19 00:35:05,567 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-04-19 00:35:05,925 [INFO] ConfigFileManager:1483 - The Die is : DIE431
+2023-04-19 00:35:05,928 [INFO] ApiDbMcu:507 - Load IP Config File for FATFS
+2023-04-19 00:35:05,932 [INFO] ApiDbMcu:507 - Load IP Config File for FREERTOS
+2023-04-19 00:35:05,933 [INFO] ApiDbMcu:507 - Load IP Config File for LIBJPEG
+2023-04-19 00:35:05,938 [INFO] ApiDbMcu:507 - Load IP Config File for MBEDTLS
+2023-04-19 00:35:05,944 [INFO] ApiDbMcu:507 - Load IP Config File for USB_DEVICE
+2023-04-19 00:35:05,947 [INFO] ApiDbMcu:507 - Load IP Config File for USB_HOST
+2023-04-19 00:35:07,181 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 1614mS.
+2023-04-19 00:35:07,182 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-04-19 00:35:07,191 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 1mS.
+2023-04-19 01:21:41,369 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-04-19 01:22:06,841 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-04-19 01:26:31,731 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 670139744 Bytes (824180736)
+2023-04-19 01:26:31,962 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-04-19 01:26:31,962 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-04-19 01:26:31,962 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8
+2023-04-19 01:26:31,962 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8
+2023-04-19 01:26:31,962 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: ARM.CMSIS.5.6.0
+2023-04-19 01:26:31,962 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-04-19 01:26:31,963 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-04-19 01:26:31,963 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-04-19 01:26:31,963 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8-M TZ Device' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:31,963 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8-M TZ Device' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:31,963 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8-M TZ Device' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:31,964 [WARN] ThirdPartyIpManager:480 - Condition 'CM0_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:31,964 [WARN] ThirdPartyIpManager:480 - Condition 'CM0_BE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:31,964 [WARN] ThirdPartyIpManager:480 - Condition 'CM1_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:31,965 [WARN] ThirdPartyIpManager:480 - Condition 'CM1_BE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:31,965 [WARN] ThirdPartyIpManager:480 - Condition 'CM3_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:31,965 [WARN] ThirdPartyIpManager:480 - Condition 'CM3_BE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:31,965 [WARN] ThirdPartyIpManager:480 - Condition 'CM4_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:31,965 [WARN] ThirdPartyIpManager:480 - Condition 'CM4_BE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:31,965 [WARN] ThirdPartyIpManager:480 - Condition 'CM4_FP_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:31,965 [WARN] ThirdPartyIpManager:480 - Condition 'CM4_FP_BE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:31,965 [WARN] ThirdPartyIpManager:480 - Condition 'CM7_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:31,965 [WARN] ThirdPartyIpManager:480 - Condition 'CM7_BE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:31,965 [WARN] ThirdPartyIpManager:480 - Condition 'CM7_SP_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:31,965 [WARN] ThirdPartyIpManager:480 - Condition 'CM7_SP_BE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:31,965 [WARN] ThirdPartyIpManager:480 - Condition 'CM7_DP_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:31,966 [WARN] ThirdPartyIpManager:480 - Condition 'CM7_DP_BE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:31,966 [WARN] ThirdPartyIpManager:480 - Condition 'CM23_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:31,966 [WARN] ThirdPartyIpManager:480 - Condition 'CM33_NODSP_NOFPU_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:31,966 [WARN] ThirdPartyIpManager:480 - Condition 'CM33_DSP_NOFPU_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:31,966 [WARN] ThirdPartyIpManager:480 - Condition 'CM33_NODSP_SP_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:31,966 [WARN] ThirdPartyIpManager:480 - Condition 'CM33_DSP_SP_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:31,966 [WARN] ThirdPartyIpManager:480 - Condition 'CM35P_NODSP_NOFPU_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:31,966 [WARN] ThirdPartyIpManager:480 - Condition 'CM35P_DSP_NOFPU_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:31,966 [WARN] ThirdPartyIpManager:480 - Condition 'CM35P_NODSP_SP_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:31,966 [WARN] ThirdPartyIpManager:480 - Condition 'CM35P_DSP_SP_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:31,967 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8MBL_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:31,967 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8MML_NODSP_NOFPU_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:31,967 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8MML_DSP_NOFPU_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:31,967 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8MML_NODSP_SP_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:31,967 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8MML_DSP_SP_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:31,967 [WARN] ThirdPartyIpManager:480 - Condition 'CM0_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:31,967 [WARN] ThirdPartyIpManager:480 - Condition 'CM1_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:31,968 [WARN] ThirdPartyIpManager:480 - Condition 'CM3_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:31,968 [WARN] ThirdPartyIpManager:480 - Condition 'CM4_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:31,968 [WARN] ThirdPartyIpManager:480 - Condition 'CM7_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:31,968 [WARN] ThirdPartyIpManager:480 - Condition 'CM7_SP_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:31,968 [WARN] ThirdPartyIpManager:480 - Condition 'CM7_DP_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:31,968 [WARN] ThirdPartyIpManager:480 - Condition 'CM23_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:31,968 [WARN] ThirdPartyIpManager:480 - Condition 'CM33_NODSP_NOFPU_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:31,968 [WARN] ThirdPartyIpManager:480 - Condition 'CM33_DSP_NOFPU_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:31,968 [WARN] ThirdPartyIpManager:480 - Condition 'CM33_NODSP_SP_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:31,968 [WARN] ThirdPartyIpManager:480 - Condition 'CM33_DSP_SP_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:31,968 [WARN] ThirdPartyIpManager:480 - Condition 'CM35P_NODSP_NOFPU_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:31,968 [WARN] ThirdPartyIpManager:480 - Condition 'CM35P_DSP_NOFPU_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:31,969 [WARN] ThirdPartyIpManager:480 - Condition 'CM35P_NODSP_SP_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:31,969 [WARN] ThirdPartyIpManager:480 - Condition 'CM35P_DSP_SP_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:31,969 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8MBL_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:31,969 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8MML_NODSP_NOFPU_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:31,969 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8MML_DSP_NOFPU_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:31,969 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8MML_NODSP_SP_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:31,969 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8MML_DSP_SP_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:31,969 [WARN] ThirdPartyIpManager:480 - Condition 'CM0_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:31,969 [WARN] ThirdPartyIpManager:480 - Condition 'CM0_BE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:31,969 [WARN] ThirdPartyIpManager:480 - Condition 'CM1_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:31,969 [WARN] ThirdPartyIpManager:480 - Condition 'CM1_BE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:31,969 [WARN] ThirdPartyIpManager:480 - Condition 'CM3_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:31,969 [WARN] ThirdPartyIpManager:480 - Condition 'CM3_BE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:31,970 [WARN] ThirdPartyIpManager:480 - Condition 'CM4_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:31,970 [WARN] ThirdPartyIpManager:480 - Condition 'CM4_BE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:31,970 [WARN] ThirdPartyIpManager:480 - Condition 'CM4_FP_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:31,970 [WARN] ThirdPartyIpManager:480 - Condition 'CM4_FP_BE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:31,970 [WARN] ThirdPartyIpManager:480 - Condition 'CM7_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:31,970 [WARN] ThirdPartyIpManager:480 - Condition 'CM7_BE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:31,970 [WARN] ThirdPartyIpManager:480 - Condition 'CM7_DP_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:31,970 [WARN] ThirdPartyIpManager:480 - Condition 'CM7_DP_BE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:31,970 [WARN] ThirdPartyIpManager:480 - Condition 'CM7_SP_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:31,970 [WARN] ThirdPartyIpManager:480 - Condition 'CM7_SP_BE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:31,970 [WARN] ThirdPartyIpManager:480 - Condition 'CM23_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:31,970 [WARN] ThirdPartyIpManager:480 - Condition 'CM33_NODSP_NOFPU_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:31,970 [WARN] ThirdPartyIpManager:480 - Condition 'CM33_DSP_NOFPU_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:31,971 [WARN] ThirdPartyIpManager:480 - Condition 'CM33_NODSP_SP_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:31,971 [WARN] ThirdPartyIpManager:480 - Condition 'CM33_DSP_SP_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:31,971 [WARN] ThirdPartyIpManager:480 - Condition 'CM35P_NODSP_NOFPU_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:31,971 [WARN] ThirdPartyIpManager:480 - Condition 'CM35P_DSP_NOFPU_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:31,971 [WARN] ThirdPartyIpManager:480 - Condition 'CM35P_NODSP_SP_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:31,971 [WARN] ThirdPartyIpManager:480 - Condition 'CM35P_DSP_SP_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:31,971 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8MBL_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:31,971 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8MML_NODSP_NOFPU_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:31,971 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8MML_DSP_NOFPU_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:31,971 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8MML_NODSP_SP_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:31,971 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8MML_DSP_SP_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:31,972 [INFO] CodeGenerator:793 - code generatio: config db path: D:\ST\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.0.202302231600\\db\
+2023-04-19 01:26:32,159 [INFO] IP:3348 - RTE Config file name : RTE_Component
+2023-04-19 01:26:32,159 [INFO] IP:3366 - RTE template : RTE_Components.ftl
+2023-04-19 01:26:32,164 [INFO] CodeEngine:255 - oldGeneratedFile, D:\git\LAB4_01\Motor_PID\PID\MXTmpFiles\license.tmp_save
+2023-04-19 01:26:32,253 [INFO] CodeEngine:279 - Generated code: D:\git\LAB4_01\Motor_PID\PID\MXTmpFiles\license.tmp
+2023-04-19 01:26:32,268 [INFO] CodeEngine:255 - oldGeneratedFile, D:\git\LAB4_01\Motor_PID\PID\MXTmpFiles\gpio.tmp_save
+2023-04-19 01:26:32,361 [INFO] CodeEngine:279 - Generated code: D:\git\LAB4_01\Motor_PID\PID\MXTmpFiles\gpio.tmp
+2023-04-19 01:26:32,451 [INFO] CodeEngine:255 - oldGeneratedFile, D:\git\LAB4_01\Motor_PID\PID\Core\Src\stm32f4xx_it.c_save
+2023-04-19 01:26:32,672 [INFO] CodeEngine:279 - Generated code: D:\git\LAB4_01\Motor_PID\PID\Core\Src\stm32f4xx_it.c
+2023-04-19 01:26:32,677 [INFO] CodeEngine:255 - oldGeneratedFile, D:\git\LAB4_01\Motor_PID\PID\Core\Inc\stm32f4xx_it.h_save
+2023-04-19 01:26:32,750 [INFO] CodeEngine:279 - Generated code: D:\git\LAB4_01\Motor_PID\PID\Core\Inc\stm32f4xx_it.h
+2023-04-19 01:26:32,766 [INFO] CodeEngine:255 - oldGeneratedFile, D:\git\LAB4_01\Motor_PID\PID\Core\Src\stm32f4xx_hal_msp.c_save
+2023-04-19 01:26:32,872 [INFO] CodeEngine:279 - Generated code: D:\git\LAB4_01\Motor_PID\PID\Core\Src\stm32f4xx_hal_msp.c
+2023-04-19 01:26:32,876 [INFO] CodeEngine:255 - oldGeneratedFile, D:\git\LAB4_01\Motor_PID\PID\MXTmpFiles\system.tmp_save
+2023-04-19 01:26:32,941 [INFO] CodeEngine:279 - Generated code: D:\git\LAB4_01\Motor_PID\PID\MXTmpFiles\system.tmp
+2023-04-19 01:26:32,953 [INFO] CodeEngine:311 - oldGeneratedFile, D:\git\LAB4_01\Motor_PID\PID\Core\Inc\stm32f4xx_hal_conf.h_save
+2023-04-19 01:26:33,048 [INFO] CodeEngine:335 - Generated code: D:\git\LAB4_01\Motor_PID\PID\Core\Inc\stm32f4xx_hal_conf.h
+2023-04-19 01:26:33,068 [WARN] IPConfigManager:3431 - IP not found : TIM
+2023-04-19 01:26:33,069 [WARN] CodeGenerator:3754 - IP not found : null
+2023-04-19 01:26:33,080 [INFO] CodeEngine:255 - oldGeneratedFile, D:\git\LAB4_01\Motor_PID\PID\Core\Inc\main.h_save
+2023-04-19 01:26:33,176 [INFO] CodeEngine:279 - Generated code: D:\git\LAB4_01\Motor_PID\PID\Core\Inc\main.h
+2023-04-19 01:26:33,186 [INFO] CodeEngine:255 - oldGeneratedFile, D:\git\LAB4_01\Motor_PID\PID\Core\Src\main.c_save
+2023-04-19 01:26:33,312 [INFO] CodeEngine:279 - Generated code: D:\git\LAB4_01\Motor_PID\PID\Core\Src\main.c
+2023-04-19 01:26:34,114 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 306mS.
+2023-04-19 01:26:34,115 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8-M TZ Device' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:34,115 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8-M TZ Device' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:34,115 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8-M TZ Device' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:34,115 [WARN] ThirdPartyIpManager:480 - Condition 'CM0_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:34,115 [WARN] ThirdPartyIpManager:480 - Condition 'CM0_BE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:34,115 [WARN] ThirdPartyIpManager:480 - Condition 'CM1_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:34,115 [WARN] ThirdPartyIpManager:480 - Condition 'CM1_BE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:34,115 [WARN] ThirdPartyIpManager:480 - Condition 'CM3_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:34,115 [WARN] ThirdPartyIpManager:480 - Condition 'CM3_BE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:34,116 [WARN] ThirdPartyIpManager:480 - Condition 'CM4_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:34,116 [WARN] ThirdPartyIpManager:480 - Condition 'CM4_BE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:34,116 [WARN] ThirdPartyIpManager:480 - Condition 'CM4_FP_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:34,116 [WARN] ThirdPartyIpManager:480 - Condition 'CM4_FP_BE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:34,116 [WARN] ThirdPartyIpManager:480 - Condition 'CM7_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:34,116 [WARN] ThirdPartyIpManager:480 - Condition 'CM7_BE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:34,116 [WARN] ThirdPartyIpManager:480 - Condition 'CM7_SP_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:34,116 [WARN] ThirdPartyIpManager:480 - Condition 'CM7_SP_BE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:34,116 [WARN] ThirdPartyIpManager:480 - Condition 'CM7_DP_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:34,116 [WARN] ThirdPartyIpManager:480 - Condition 'CM7_DP_BE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:34,116 [WARN] ThirdPartyIpManager:480 - Condition 'CM23_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:34,116 [WARN] ThirdPartyIpManager:480 - Condition 'CM33_NODSP_NOFPU_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:34,116 [WARN] ThirdPartyIpManager:480 - Condition 'CM33_DSP_NOFPU_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:34,116 [WARN] ThirdPartyIpManager:480 - Condition 'CM33_NODSP_SP_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:34,117 [WARN] ThirdPartyIpManager:480 - Condition 'CM33_DSP_SP_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:34,117 [WARN] ThirdPartyIpManager:480 - Condition 'CM35P_NODSP_NOFPU_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:34,117 [WARN] ThirdPartyIpManager:480 - Condition 'CM35P_DSP_NOFPU_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:34,117 [WARN] ThirdPartyIpManager:480 - Condition 'CM35P_NODSP_SP_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:34,117 [WARN] ThirdPartyIpManager:480 - Condition 'CM35P_DSP_SP_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:34,117 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8MBL_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:34,117 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8MML_NODSP_NOFPU_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:34,117 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8MML_DSP_NOFPU_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:34,117 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8MML_NODSP_SP_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:34,117 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8MML_DSP_SP_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:34,117 [WARN] ThirdPartyIpManager:480 - Condition 'CM0_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:34,117 [WARN] ThirdPartyIpManager:480 - Condition 'CM1_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:34,117 [WARN] ThirdPartyIpManager:480 - Condition 'CM3_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:34,117 [WARN] ThirdPartyIpManager:480 - Condition 'CM4_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:34,118 [WARN] ThirdPartyIpManager:480 - Condition 'CM7_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:34,118 [WARN] ThirdPartyIpManager:480 - Condition 'CM7_SP_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:34,118 [WARN] ThirdPartyIpManager:480 - Condition 'CM7_DP_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:34,118 [WARN] ThirdPartyIpManager:480 - Condition 'CM23_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:34,118 [WARN] ThirdPartyIpManager:480 - Condition 'CM33_NODSP_NOFPU_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:34,118 [WARN] ThirdPartyIpManager:480 - Condition 'CM33_DSP_NOFPU_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:34,118 [WARN] ThirdPartyIpManager:480 - Condition 'CM33_NODSP_SP_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:34,118 [WARN] ThirdPartyIpManager:480 - Condition 'CM33_DSP_SP_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:34,118 [WARN] ThirdPartyIpManager:480 - Condition 'CM35P_NODSP_NOFPU_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:34,118 [WARN] ThirdPartyIpManager:480 - Condition 'CM35P_DSP_NOFPU_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:34,118 [WARN] ThirdPartyIpManager:480 - Condition 'CM35P_NODSP_SP_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:34,118 [WARN] ThirdPartyIpManager:480 - Condition 'CM35P_DSP_SP_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:34,118 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8MBL_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:34,118 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8MML_NODSP_NOFPU_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:34,118 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8MML_DSP_NOFPU_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:34,119 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8MML_NODSP_SP_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:34,119 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8MML_DSP_SP_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:34,119 [WARN] ThirdPartyIpManager:480 - Condition 'CM0_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:34,119 [WARN] ThirdPartyIpManager:480 - Condition 'CM0_BE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:34,119 [WARN] ThirdPartyIpManager:480 - Condition 'CM1_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:34,119 [WARN] ThirdPartyIpManager:480 - Condition 'CM1_BE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:34,119 [WARN] ThirdPartyIpManager:480 - Condition 'CM3_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:34,119 [WARN] ThirdPartyIpManager:480 - Condition 'CM3_BE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:34,119 [WARN] ThirdPartyIpManager:480 - Condition 'CM4_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:34,119 [WARN] ThirdPartyIpManager:480 - Condition 'CM4_BE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:34,119 [WARN] ThirdPartyIpManager:480 - Condition 'CM4_FP_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:34,119 [WARN] ThirdPartyIpManager:480 - Condition 'CM4_FP_BE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:34,119 [WARN] ThirdPartyIpManager:480 - Condition 'CM7_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:34,119 [WARN] ThirdPartyIpManager:480 - Condition 'CM7_BE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:34,119 [WARN] ThirdPartyIpManager:480 - Condition 'CM7_DP_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:34,119 [WARN] ThirdPartyIpManager:480 - Condition 'CM7_DP_BE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:34,120 [WARN] ThirdPartyIpManager:480 - Condition 'CM7_SP_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:34,120 [WARN] ThirdPartyIpManager:480 - Condition 'CM7_SP_BE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:34,120 [WARN] ThirdPartyIpManager:480 - Condition 'CM23_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:34,120 [WARN] ThirdPartyIpManager:480 - Condition 'CM33_NODSP_NOFPU_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:34,120 [WARN] ThirdPartyIpManager:480 - Condition 'CM33_DSP_NOFPU_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:34,120 [WARN] ThirdPartyIpManager:480 - Condition 'CM33_NODSP_SP_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:34,120 [WARN] ThirdPartyIpManager:480 - Condition 'CM33_DSP_SP_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:34,120 [WARN] ThirdPartyIpManager:480 - Condition 'CM35P_NODSP_NOFPU_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:34,120 [WARN] ThirdPartyIpManager:480 - Condition 'CM35P_DSP_NOFPU_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:34,120 [WARN] ThirdPartyIpManager:480 - Condition 'CM35P_NODSP_SP_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:34,120 [WARN] ThirdPartyIpManager:480 - Condition 'CM35P_DSP_SP_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:34,120 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8MBL_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:34,120 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8MML_NODSP_NOFPU_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:34,120 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8MML_DSP_NOFPU_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:34,120 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8MML_NODSP_SP_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:34,120 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8MML_DSP_SP_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 01:26:34,210 [INFO] ProjectBuilder:8409 - Time for Copy ThirdParty[1] : 89mS.
+2023-04-19 01:26:34,276 [INFO] ProjectBuilder:8409 - Time for Copy ThirdParty[1] : 65mS.
+2023-04-19 01:26:34,279 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-04-19 01:26:34,620 [INFO] ConfigFileManager:1483 - The Die is : DIE431
+2023-04-19 01:26:35,868 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 1588mS.
+2023-04-19 01:26:35,869 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-04-19 01:26:35,879 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-04-19 01:57:15,217 [INFO] CheckServerUpdateThread:120 - End of CheckServer Thread
+2023-04-19 01:57:41,174 [INFO] DeleteFilesThread:122 - Start of DeleteFileThread Thread
+2023-04-19 01:57:41,177 [WARN] DeleteFilesThread:287 - Pack is in use in project (Cannot be deleted) : ARM.CMSIS.5.6.0
+2023-04-19 01:57:42,317 [INFO] DeleteFilesThread:140 - End of DeleteFileThread Thread
+2023-04-19 01:57:42,509 [INFO] ThirdPartyModel:298 - Start build external matchings
+2023-04-19 01:57:42,951 [INFO] ThirdPartyModel:316 - End build external matchings
+2023-04-19 01:57:42,959 [INFO] CheckServerUpdateThread:120 - End of CheckServer Thread
+2023-04-19 01:57:46,877 [INFO] DeleteFilesThread:122 - Start of DeleteFileThread Thread
+2023-04-19 01:57:46,881 [WARN] DeleteFilesThread:287 - Pack is in use in project (Cannot be deleted) : ARM.CMSIS.5.6.0
+2023-04-19 01:57:50,395 [INFO] DeleteFilesThread:140 - End of DeleteFileThread Thread
+2023-04-19 01:57:50,615 [INFO] ThirdPartyModel:298 - Start build external matchings
+2023-04-19 01:57:51,055 [INFO] ThirdPartyModel:316 - End build external matchings
+2023-04-19 01:57:51,064 [INFO] CheckServerUpdateThread:120 - End of CheckServer Thread
+2023-04-19 01:58:47,482 [INFO] MainUpdater:2854 - connection check result : 10
+2023-04-19 01:59:07,760 [INFO] MainUpdater:2854 - connection check result : 10
+2023-04-19 01:59:07,770 [INFO] MicroXplorer:468 - Change Database Path : 
+2023-04-19 01:59:07,771 [INFO] MicroXplorer:498 - Change Database Version : DB.6.0.80
+2023-04-19 01:59:07,781 [WARN] ThirdParty:871 - waiting for thirdparty lock release [close project]
+2023-04-19 01:59:07,781 [INFO] ThirdParty:873 - entering critical section [close project]
+2023-04-19 01:59:07,784 [INFO] ThirdParty:883 - exiting critical section [close project]
+2023-04-19 01:59:07,785 [INFO] PinOutPanel:1499 - setPackage(No Configuration,No Configuration)
+2023-04-19 01:59:07,789 [WARN] IpParametersView:150 - Warning: This peripheral hasn't parameters
+2023-04-19 01:59:07,792 [WARN] MainPanel:257 - <html><b><center>Warning: This peripheral has no parameters to be configured<br></b></html>
+2023-04-19 01:59:07,795 [INFO] UtilMem:75 - Begin LoadConfig() Used Memory: 514642240 Bytes (824180736)
+2023-04-19 01:59:07,795 [INFO] MicroXplorer:468 - Change Database Path : 
+2023-04-19 01:59:07,795 [INFO] MicroXplorer:498 - Change Database Version : DB.6.0.80
+2023-04-19 01:59:07,795 [INFO] OpenFileManager:308 - Change cursor
+2023-04-19 01:59:07,804 [INFO] RulesReader:64 - Compatibility file has been processed (293 Rules)
+2023-04-19 01:59:07,806 [INFO] Mcu:1937 - Initializing MCU STM32F411R(C-E)Tx STM32F411RETx STM32F411RET6
+2023-04-19 01:59:08,546 [INFO] Context:659 - Trying to add GPIOservice into a context  which must be forbidden
+2023-04-19 01:59:08,744 [INFO] ApiDbMcu:507 - Load IP Config File for ARM.CMSIS.5.6.0
+2023-04-19 01:59:08,861 [INFO] RtosManager:555 - Registered RTOS mode: class=CMSIS, group=RTOS, mode=CMSIS_V1, owner=FREERTOS
+2023-04-19 01:59:08,861 [INFO] RtosManager:555 - Registered RTOS mode: class=CMSIS, group=RTOS2, mode=CMSIS_V2, owner=FREERTOS
+2023-04-19 01:59:08,861 [INFO] RtosManager:555 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V1, owner=FREERTOS
+2023-04-19 01:59:08,861 [INFO] RtosManager:555 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V2, owner=FREERTOS
+2023-04-19 01:59:08,861 [WARN] ModelIntegratedComponent:184 - Missing modes for component STMicroelectronics:FreeRTOS:0.0.1:STMicroelectronics:RTOS:FreeRTOS:Core:::10.2.0:
+2023-04-19 01:59:08,864 [WARN] ModelIntegratedComponent:182 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:Audio HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2023-04-19 01:59:08,864 [WARN] ModelIntegratedComponent:188 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:Audio HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2023-04-19 01:59:08,864 [WARN] ModelIntegratedComponent:182 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:CDC HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2023-04-19 01:59:08,864 [WARN] ModelIntegratedComponent:188 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:CDC HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2023-04-19 01:59:08,864 [WARN] ModelIntegratedComponent:182 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:MSC HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2023-04-19 01:59:08,864 [WARN] ModelIntegratedComponent:188 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:MSC HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2023-04-19 01:59:08,864 [WARN] ModelIntegratedComponent:182 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:HID HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2023-04-19 01:59:08,864 [WARN] ModelIntegratedComponent:188 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:HID HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2023-04-19 01:59:08,864 [WARN] ModelIntegratedComponent:182 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:MTP HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2023-04-19 01:59:08,864 [WARN] ModelIntegratedComponent:188 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:MTP HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2023-04-19 01:59:08,869 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-19 01:59:08,869 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-19 01:59:08,869 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-19 01:59:08,869 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-19 01:59:08,869 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-19 01:59:08,869 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-19 01:59:08,869 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-19 01:59:08,869 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-19 01:59:08,869 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-19 01:59:08,869 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-19 01:59:08,869 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-19 01:59:08,869 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-19 01:59:08,869 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-19 01:59:08,869 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-19 01:59:08,869 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-19 01:59:08,869 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-19 01:59:08,869 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-19 01:59:08,869 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-19 01:59:08,869 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-19 01:59:08,869 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-19 01:59:08,869 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-19 01:59:08,870 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-19 01:59:08,870 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-19 01:59:08,870 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-19 01:59:08,870 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-19 01:59:08,870 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-19 01:59:08,870 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-19 01:59:08,870 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-19 01:59:08,870 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-19 01:59:08,870 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-19 01:59:08,870 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-19 01:59:08,870 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-19 01:59:08,870 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-19 01:59:08,932 [WARN] ModelIntegratedComponent:182 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:Audio HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2023-04-19 01:59:08,932 [WARN] ModelIntegratedComponent:188 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:Audio HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2023-04-19 01:59:08,932 [WARN] ModelIntegratedComponent:182 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:CDC HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2023-04-19 01:59:08,932 [WARN] ModelIntegratedComponent:188 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:CDC HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2023-04-19 01:59:08,932 [WARN] ModelIntegratedComponent:182 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:DFU HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2023-04-19 01:59:08,932 [WARN] ModelIntegratedComponent:188 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:DFU HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2023-04-19 01:59:08,932 [WARN] ModelIntegratedComponent:182 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:HID HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2023-04-19 01:59:08,932 [WARN] ModelIntegratedComponent:188 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:HID HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2023-04-19 01:59:08,932 [WARN] ModelIntegratedComponent:182 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:Custom HID HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2023-04-19 01:59:08,933 [WARN] ModelIntegratedComponent:188 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:Custom HID HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2023-04-19 01:59:08,933 [WARN] ModelIntegratedComponent:182 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:MSC HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2023-04-19 01:59:08,933 [WARN] ModelIntegratedComponent:188 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:MSC HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2023-04-19 01:59:09,076 [INFO] ThirdPartyModel:298 - Start build external matchings
+2023-04-19 01:59:09,544 [INFO] ThirdPartyModel:316 - End build external matchings
+2023-04-19 01:59:09,555 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (RCC) : Parameter (48MHZClocksFreq_Value) has invalid value (84000000)
+2023-04-19 01:59:09,556 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (RCC) : Parameter (FLatency) has Id (AdvancedSettings) currently not set
+2023-04-19 01:59:09,556 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (RCC) : Parameter (RTCHSEDivFreq_Value) has invalid value (4000000)
+2023-04-19 01:59:09,736 [INFO] UtilMem:75 - End LoadConfig() Used Memory: 516598872 Bytes (824180736)
+2023-04-19 01:59:09,751 [WARN] ThirdParty:833 - waiting for thirdparty lock release [change project]
+2023-04-19 01:59:09,751 [INFO] ThirdParty:835 - entering critical section [change project]
+2023-04-19 01:59:09,751 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ISPU 1.1.0
+2023-04-19 01:59:09,751 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :RoweBots I-CUBE-UNISONRTOS 5.5.0-4
+2023-04-19 01:59:09,751 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 6.0.0
+2023-04-19 01:59:09,751 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 2.0.0
+2023-04-19 01:59:09,751 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F4 1.1.0
+2023-04-19 01:59:09,751 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics LIBJPEG 8.0.0
+2023-04-19 01:59:09,751 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SMBUS 2.1.0
+2023-04-19 01:59:09,751 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 3.0.0
+2023-04-19 01:59:09,751 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 8.0.0
+2023-04-19 01:59:09,751 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-FREERTOS 1.0.0
+2023-04-19 01:59:09,751 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-FREERTOS 1.0.1
+2023-04-19 01:59:09,752 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.21.1
+2023-04-19 01:59:09,752 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.21.0
+2023-04-19 01:59:09,752 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.21.3
+2023-04-19 01:59:09,752 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F7 1.1.0
+2023-04-19 01:59:09,752 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 9.4.0
+2023-04-19 01:59:09,752 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 2.0.0
+2023-04-19 01:59:09,752 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 7.3.0
+2023-04-19 01:59:09,752 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.3.0
+2023-04-19 01:59:09,752 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 6.2.4
+2023-04-19 01:59:09,752 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L5 1.1.0
+2023-04-19 01:59:09,752 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2023-04-19 01:59:09,752 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :emotas I-CUBE-CANOPEN 1.1.3
+2023-04-19 01:59:09,752 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G0 1.1.0
+2023-04-19 01:59:09,752 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLEMGR 2.0.0
+2023-04-19 01:59:09,752 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 5.0.0
+2023-04-19 01:59:09,752 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 3.0.0
+2023-04-19 01:59:09,752 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics STM32_WPAN 1.0.0
+2023-04-19 01:59:09,752 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.0.3
+2023-04-19 01:59:09,752 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 2.0.5
+2023-04-19 01:59:09,752 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 1.0.0
+2023-04-19 01:59:09,752 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.1.0
+2023-04-19 01:59:09,752 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 3.1.0
+2023-04-19 01:59:09,752 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.3.0
+2023-04-19 01:59:09,752 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-ASTRA1 1.1.1
+2023-04-19 01:59:09,752 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.3.0
+2023-04-19 01:59:09,752 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DISPLAY 3.0.0
+2023-04-19 01:59:09,752 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLEMGR 1.3.0
+2023-04-19 01:59:09,752 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G4 1.0.0
+2023-04-19 01:59:09,752 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-SIGFOX1 3.2.0
+2023-04-19 01:59:09,752 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfSSL 5.5.4
+2023-04-19 01:59:09,752 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L4 1.0.0
+2023-04-19 01:59:09,752 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics HAL Drivers 0.0.0
+2023-04-19 01:59:09,752 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.16.2
+2023-04-19 01:59:09,752 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.14.1
+2023-04-19 01:59:09,752 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC7 1.0.0
+2023-04-19 01:59:09,752 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WL 1.0.0
+2023-04-19 01:59:09,752 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 4.1.0
+2023-04-19 01:59:09,752 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :portGmbH I-Cube-SoM-uGOAL 1.1.0
+2023-04-19 01:59:09,753 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALS 1.0.1
+2023-04-19 01:59:09,753 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 9.5.0
+2023-04-19 01:59:09,753 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :ARM CMSIS 5.6.0
+2023-04-19 01:59:09,753 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics ThreadX 1.0.0
+2023-04-19 01:59:09,753 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WB 1.1.0
+2023-04-19 01:59:09,753 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :SEGGER I-CUBE-embOS 1.3.1
+2023-04-19 01:59:09,753 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 1.0.0
+2023-04-19 01:59:09,753 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :SEGGER I-CUBE-embOS 1.3.0
+2023-04-19 01:59:09,753 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics ThreadX 0.0.2
+2023-04-19 01:59:09,753 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :WES I-CUBE-Cesium 1.3.0
+2023-04-19 01:59:09,753 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-ASTRA1 2.0.0
+2023-04-19 01:59:09,753 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.1.2
+2023-04-19 01:59:09,753 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SFXS2LP1 4.0.0
+2023-04-19 01:59:09,753 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.3.0
+2023-04-19 01:59:09,753 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DISPLAY 2.2.0
+2023-04-19 01:59:09,753 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.2.0
+2023-04-19 01:59:09,753 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.2.0
+2023-04-19 01:59:09,753 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 3.0.0
+2023-04-19 01:59:09,753 [INFO] ThirdParty:841 - exiting critical section [change project]
+2023-04-19 01:59:09,859 [INFO] PinOutPanel:1499 - setPackage(No Configuration,No Configuration)
+2023-04-19 01:59:09,860 [INFO] PinOutPanel:1499 - setPackage(STM32F411RETx,LQFP64)
+2023-04-19 01:59:10,043 [INFO] UtilMem:75 - Before build in PCC Used Memory: 444504208 Bytes (824180736)
+2023-04-19 01:59:10,217 [INFO] UtilMem:75 - After build in PCC Used Memory: 488544400 Bytes (824180736)
+2023-04-19 01:59:10,233 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-19 01:59:10,233 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-19 01:59:10,233 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-19 01:59:10,233 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-19 01:59:10,233 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-19 01:59:10,233 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-19 01:59:10,233 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-19 01:59:10,234 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-19 01:59:10,234 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-19 01:59:10,234 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-19 01:59:10,234 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-19 01:59:10,234 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-19 01:59:10,234 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-19 01:59:10,234 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-19 01:59:10,234 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-19 01:59:10,234 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-19 01:59:10,235 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-19 01:59:10,235 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-19 01:59:10,235 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-19 01:59:10,235 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-19 01:59:10,235 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-19 01:59:10,235 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-19 01:59:10,236 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-19 01:59:10,236 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-19 01:59:10,236 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-19 01:59:10,236 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-19 01:59:10,236 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-19 01:59:10,236 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-19 01:59:10,236 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-19 01:59:10,237 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-19 01:59:10,237 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-19 01:59:10,237 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-19 01:59:10,237 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-19 01:59:10,237 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-19 01:59:10,238 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-19 01:59:10,238 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-19 01:59:10,238 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-19 01:59:10,238 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-19 01:59:10,239 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-19 01:59:10,239 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-19 01:59:10,239 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-19 01:59:10,239 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-19 01:59:10,240 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-19 01:59:10,240 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-19 01:59:10,243 [INFO] ApiDbMcu:507 - Load IP Config File for PDM2PCM
+2023-04-19 01:59:10,281 [INFO] CADModel:165 - CPN selected for project levelSTM32F411RET6
+2023-04-19 01:59:10,281 [INFO] CADModel:114 - Register for checkConnection events
+2023-04-19 01:59:10,324 [INFO] OpenFileManager:328 - Restore cursor
+2023-04-19 01:59:45,989 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 495423704 Bytes (824180736)
+2023-04-19 01:59:54,163 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 532906248 Bytes (824180736)
+2023-04-19 01:59:54,355 [WARN] MainUpdater:870 - Updater busy. Cannot search getManifestVersion
+2023-04-19 01:59:54,355 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-04-19 01:59:54,355 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-04-19 01:59:54,355 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8
+2023-04-19 01:59:54,355 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8
+2023-04-19 01:59:54,355 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: ARM.CMSIS.5.6.0
+2023-04-19 01:59:54,355 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-04-19 01:59:54,356 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-04-19 01:59:54,356 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-04-19 01:59:54,356 [INFO] CodeGenerator:793 - code generatio: config db path: D:\ST\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.0.202302231600\\db\
+2023-04-19 01:59:54,594 [INFO] CodeEngine:255 - oldGeneratedFile, D:\git\LAB4_01\Motor_PID\PID\MXTmpFiles\license.tmp_save
+2023-04-19 01:59:54,676 [INFO] CodeEngine:279 - Generated code: D:\git\LAB4_01\Motor_PID\PID\MXTmpFiles\license.tmp
+2023-04-19 01:59:54,699 [INFO] CodeEngine:255 - oldGeneratedFile, D:\git\LAB4_01\Motor_PID\PID\MXTmpFiles\gpio.tmp_save
+2023-04-19 01:59:54,789 [INFO] CodeEngine:279 - Generated code: D:\git\LAB4_01\Motor_PID\PID\MXTmpFiles\gpio.tmp
+2023-04-19 01:59:54,870 [INFO] CodeEngine:255 - oldGeneratedFile, D:\git\LAB4_01\Motor_PID\PID\Core\Src\stm32f4xx_it.c_save
+2023-04-19 01:59:55,055 [INFO] CodeEngine:279 - Generated code: D:\git\LAB4_01\Motor_PID\PID\Core\Src\stm32f4xx_it.c
+2023-04-19 01:59:55,060 [INFO] CodeEngine:255 - oldGeneratedFile, D:\git\LAB4_01\Motor_PID\PID\Core\Inc\stm32f4xx_it.h_save
+2023-04-19 01:59:55,139 [INFO] CodeEngine:279 - Generated code: D:\git\LAB4_01\Motor_PID\PID\Core\Inc\stm32f4xx_it.h
+2023-04-19 01:59:55,158 [INFO] CodeEngine:255 - oldGeneratedFile, D:\git\LAB4_01\Motor_PID\PID\Core\Src\stm32f4xx_hal_msp.c_save
+2023-04-19 01:59:55,323 [INFO] CodeEngine:279 - Generated code: D:\git\LAB4_01\Motor_PID\PID\Core\Src\stm32f4xx_hal_msp.c
+2023-04-19 01:59:55,327 [INFO] CodeEngine:255 - oldGeneratedFile, D:\git\LAB4_01\Motor_PID\PID\MXTmpFiles\system.tmp_save
+2023-04-19 01:59:55,400 [INFO] CodeEngine:279 - Generated code: D:\git\LAB4_01\Motor_PID\PID\MXTmpFiles\system.tmp
+2023-04-19 01:59:55,418 [INFO] CodeEngine:311 - oldGeneratedFile, D:\git\LAB4_01\Motor_PID\PID\Core\Inc\stm32f4xx_hal_conf.h_save
+2023-04-19 01:59:55,514 [INFO] CodeEngine:335 - Generated code: D:\git\LAB4_01\Motor_PID\PID\Core\Inc\stm32f4xx_hal_conf.h
+2023-04-19 01:59:55,536 [WARN] IPConfigManager:3431 - IP not found : TIM
+2023-04-19 01:59:55,536 [WARN] CodeGenerator:3754 - IP not found : null
+2023-04-19 01:59:55,549 [INFO] CodeEngine:255 - oldGeneratedFile, D:\git\LAB4_01\Motor_PID\PID\Core\Inc\main.h_save
+2023-04-19 01:59:55,649 [INFO] CodeEngine:279 - Generated code: D:\git\LAB4_01\Motor_PID\PID\Core\Inc\main.h
+2023-04-19 01:59:55,660 [INFO] CodeEngine:255 - oldGeneratedFile, D:\git\LAB4_01\Motor_PID\PID\Core\Src\main.c_save
+2023-04-19 01:59:55,790 [INFO] CodeEngine:279 - Generated code: D:\git\LAB4_01\Motor_PID\PID\Core\Src\main.c
+2023-04-19 01:59:56,663 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 337mS.
+2023-04-19 01:59:56,664 [INFO] ProjectBuilder:3630 - CMSIS Pack : ARM.CMSIS.5.6.0 is no more used, delete every component (files)
+2023-04-19 01:59:56,686 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-04-19 01:59:56,928 [INFO] ConfigFileManager:1483 - The Die is : DIE431
+2023-04-19 01:59:56,930 [INFO] ApiDbMcu:507 - Load IP Config File for FATFS
+2023-04-19 01:59:56,934 [INFO] ApiDbMcu:507 - Load IP Config File for FREERTOS
+2023-04-19 01:59:56,935 [INFO] ApiDbMcu:507 - Load IP Config File for LIBJPEG
+2023-04-19 01:59:56,939 [INFO] ApiDbMcu:507 - Load IP Config File for MBEDTLS
+2023-04-19 01:59:56,945 [INFO] ApiDbMcu:507 - Load IP Config File for USB_DEVICE
+2023-04-19 01:59:56,948 [INFO] ApiDbMcu:507 - Load IP Config File for USB_HOST
+2023-04-19 01:59:58,295 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 1609mS.
+2023-04-19 01:59:58,296 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-04-19 01:59:58,299 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-04-19 02:01:08,068 [INFO] DeleteFilesThread:122 - Start of DeleteFileThread Thread
+2023-04-19 02:01:12,022 [WARN] ThirdParty:525 - waiting for thirdparty lock release [manually remove software pack]
+2023-04-19 02:01:12,022 [INFO] ThirdParty:527 - entering critical section [manually remove software pack]
+2023-04-19 02:01:12,027 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ISPU 1.1.0
+2023-04-19 02:01:12,027 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :RoweBots I-CUBE-UNISONRTOS 5.5.0-4
+2023-04-19 02:01:12,027 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 6.0.0
+2023-04-19 02:01:12,027 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 2.0.0
+2023-04-19 02:01:12,027 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F4 1.1.0
+2023-04-19 02:01:12,027 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics LIBJPEG 8.0.0
+2023-04-19 02:01:12,027 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SMBUS 2.1.0
+2023-04-19 02:01:12,027 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 3.0.0
+2023-04-19 02:01:12,027 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 8.0.0
+2023-04-19 02:01:12,027 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-FREERTOS 1.0.0
+2023-04-19 02:01:12,027 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-FREERTOS 1.0.1
+2023-04-19 02:01:12,027 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.21.1
+2023-04-19 02:01:12,027 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.21.0
+2023-04-19 02:01:12,027 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.21.3
+2023-04-19 02:01:12,027 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F7 1.1.0
+2023-04-19 02:01:12,027 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 9.4.0
+2023-04-19 02:01:12,027 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 2.0.0
+2023-04-19 02:01:12,027 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 7.3.0
+2023-04-19 02:01:12,027 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.3.0
+2023-04-19 02:01:12,027 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 6.2.4
+2023-04-19 02:01:12,027 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L5 1.1.0
+2023-04-19 02:01:12,027 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2023-04-19 02:01:12,027 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :emotas I-CUBE-CANOPEN 1.1.3
+2023-04-19 02:01:12,027 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G0 1.1.0
+2023-04-19 02:01:12,027 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLEMGR 2.0.0
+2023-04-19 02:01:12,027 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 5.0.0
+2023-04-19 02:01:12,027 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 3.0.0
+2023-04-19 02:01:12,027 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics STM32_WPAN 1.0.0
+2023-04-19 02:01:12,027 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.0.3
+2023-04-19 02:01:12,027 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 2.0.5
+2023-04-19 02:01:12,027 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 1.0.0
+2023-04-19 02:01:12,027 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.1.0
+2023-04-19 02:01:12,027 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 3.1.0
+2023-04-19 02:01:12,028 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.3.0
+2023-04-19 02:01:12,028 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-ASTRA1 1.1.1
+2023-04-19 02:01:12,028 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.3.0
+2023-04-19 02:01:12,028 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DISPLAY 3.0.0
+2023-04-19 02:01:12,028 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLEMGR 1.3.0
+2023-04-19 02:01:12,028 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G4 1.0.0
+2023-04-19 02:01:12,028 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-SIGFOX1 3.2.0
+2023-04-19 02:01:12,028 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfSSL 5.5.4
+2023-04-19 02:01:12,028 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L4 1.0.0
+2023-04-19 02:01:12,028 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics HAL Drivers 0.0.0
+2023-04-19 02:01:12,028 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.16.2
+2023-04-19 02:01:12,028 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.14.1
+2023-04-19 02:01:12,028 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC7 1.0.0
+2023-04-19 02:01:12,028 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WL 1.0.0
+2023-04-19 02:01:12,028 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 4.1.0
+2023-04-19 02:01:12,028 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :portGmbH I-Cube-SoM-uGOAL 1.1.0
+2023-04-19 02:01:12,028 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALS 1.0.1
+2023-04-19 02:01:12,028 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 9.5.0
+2023-04-19 02:01:12,028 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics ThreadX 1.0.0
+2023-04-19 02:01:12,028 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WB 1.1.0
+2023-04-19 02:01:12,028 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :SEGGER I-CUBE-embOS 1.3.1
+2023-04-19 02:01:12,028 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 1.0.0
+2023-04-19 02:01:12,028 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :SEGGER I-CUBE-embOS 1.3.0
+2023-04-19 02:01:12,028 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics ThreadX 0.0.2
+2023-04-19 02:01:12,028 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :WES I-CUBE-Cesium 1.3.0
+2023-04-19 02:01:12,028 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-ASTRA1 2.0.0
+2023-04-19 02:01:12,028 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.1.2
+2023-04-19 02:01:12,028 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SFXS2LP1 4.0.0
+2023-04-19 02:01:12,028 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.3.0
+2023-04-19 02:01:12,028 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DISPLAY 2.2.0
+2023-04-19 02:01:12,028 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.2.0
+2023-04-19 02:01:12,028 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.2.0
+2023-04-19 02:01:12,028 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 3.0.0
+2023-04-19 02:01:12,028 [INFO] ThirdParty:531 - exiting critical section [manually remove software pack]
+2023-04-19 02:01:12,039 [INFO] DeleteFilesThread:140 - End of DeleteFileThread Thread
+2023-04-19 02:01:12,227 [INFO] ThirdPartyModel:298 - Start build external matchings
+2023-04-19 02:01:12,641 [INFO] ThirdPartyModel:316 - End build external matchings
+2023-04-19 02:01:12,649 [INFO] CheckServerUpdateThread:120 - End of CheckServer Thread
+2023-04-19 02:02:45,001 [INFO] FileExtend:240 - Unzip File : ARM.CMSIS.5.6.0.pack
+2023-04-19 02:02:45,001 [INFO] FileExtend:255 - Standard Zip Deflate
+2023-04-19 02:02:59,138 [INFO] LoadLocalFilesThread:304 - End of Local Load Thread
+2023-04-19 02:02:59,192 [WARN] ThirdParty:509 - waiting for thirdparty lock release [add software pack]
+2023-04-19 02:02:59,192 [INFO] ThirdParty:511 - entering critical section [add software pack]
+2023-04-19 02:02:59,300 [INFO] ThirdPartyModel:298 - Start build external matchings
+2023-04-19 02:02:59,779 [INFO] ThirdPartyModel:316 - End build external matchings
+2023-04-19 02:02:59,787 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ISPU 1.1.0
+2023-04-19 02:02:59,787 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :RoweBots I-CUBE-UNISONRTOS 5.5.0-4
+2023-04-19 02:02:59,787 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 6.0.0
+2023-04-19 02:02:59,787 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 2.0.0
+2023-04-19 02:02:59,787 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F4 1.1.0
+2023-04-19 02:02:59,787 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics LIBJPEG 8.0.0
+2023-04-19 02:02:59,787 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SMBUS 2.1.0
+2023-04-19 02:02:59,787 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 3.0.0
+2023-04-19 02:02:59,787 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 8.0.0
+2023-04-19 02:02:59,787 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-FREERTOS 1.0.0
+2023-04-19 02:02:59,787 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-FREERTOS 1.0.1
+2023-04-19 02:02:59,787 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.21.1
+2023-04-19 02:02:59,787 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.21.0
+2023-04-19 02:02:59,787 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.21.3
+2023-04-19 02:02:59,787 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F7 1.1.0
+2023-04-19 02:02:59,787 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 9.4.0
+2023-04-19 02:02:59,787 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 2.0.0
+2023-04-19 02:02:59,787 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 7.3.0
+2023-04-19 02:02:59,787 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.3.0
+2023-04-19 02:02:59,787 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 6.2.4
+2023-04-19 02:02:59,787 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L5 1.1.0
+2023-04-19 02:02:59,787 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2023-04-19 02:02:59,787 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :emotas I-CUBE-CANOPEN 1.1.3
+2023-04-19 02:02:59,787 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G0 1.1.0
+2023-04-19 02:02:59,787 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLEMGR 2.0.0
+2023-04-19 02:02:59,787 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 5.0.0
+2023-04-19 02:02:59,787 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 3.0.0
+2023-04-19 02:02:59,787 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics STM32_WPAN 1.0.0
+2023-04-19 02:02:59,787 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.0.3
+2023-04-19 02:02:59,787 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 2.0.5
+2023-04-19 02:02:59,787 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 1.0.0
+2023-04-19 02:02:59,787 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.1.0
+2023-04-19 02:02:59,787 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 3.1.0
+2023-04-19 02:02:59,787 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.3.0
+2023-04-19 02:02:59,787 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-ASTRA1 1.1.1
+2023-04-19 02:02:59,787 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.3.0
+2023-04-19 02:02:59,787 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DISPLAY 3.0.0
+2023-04-19 02:02:59,787 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLEMGR 1.3.0
+2023-04-19 02:02:59,787 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G4 1.0.0
+2023-04-19 02:02:59,787 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-SIGFOX1 3.2.0
+2023-04-19 02:02:59,787 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfSSL 5.5.4
+2023-04-19 02:02:59,787 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L4 1.0.0
+2023-04-19 02:02:59,787 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics HAL Drivers 0.0.0
+2023-04-19 02:02:59,787 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.16.2
+2023-04-19 02:02:59,787 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.14.1
+2023-04-19 02:02:59,787 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC7 1.0.0
+2023-04-19 02:02:59,788 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WL 1.0.0
+2023-04-19 02:02:59,788 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 4.1.0
+2023-04-19 02:02:59,788 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :portGmbH I-Cube-SoM-uGOAL 1.1.0
+2023-04-19 02:02:59,788 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALS 1.0.1
+2023-04-19 02:02:59,788 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 9.5.0
+2023-04-19 02:02:59,788 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :ARM CMSIS 5.6.0
+2023-04-19 02:02:59,788 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics ThreadX 1.0.0
+2023-04-19 02:02:59,788 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WB 1.1.0
+2023-04-19 02:02:59,788 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :SEGGER I-CUBE-embOS 1.3.1
+2023-04-19 02:02:59,788 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 1.0.0
+2023-04-19 02:02:59,788 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :SEGGER I-CUBE-embOS 1.3.0
+2023-04-19 02:02:59,788 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics ThreadX 0.0.2
+2023-04-19 02:02:59,788 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :WES I-CUBE-Cesium 1.3.0
+2023-04-19 02:02:59,788 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-ASTRA1 2.0.0
+2023-04-19 02:02:59,788 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.1.2
+2023-04-19 02:02:59,788 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SFXS2LP1 4.0.0
+2023-04-19 02:02:59,788 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.3.0
+2023-04-19 02:02:59,788 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DISPLAY 2.2.0
+2023-04-19 02:02:59,789 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.2.0
+2023-04-19 02:02:59,789 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.2.0
+2023-04-19 02:02:59,789 [INFO] ThirdPartyPackRequestProcessor:621 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 3.0.0
+2023-04-19 02:02:59,789 [INFO] ThirdParty:514 - exiting critical section [add software pack]
+2023-04-19 02:02:59,808 [INFO] LoadServerUpdatesThread:373 - End of LoadServerUpdate Thread
+2023-04-19 02:03:00,032 [INFO] ThirdPartyModel:298 - Start build external matchings
+2023-04-19 02:03:00,500 [INFO] ThirdPartyModel:316 - End build external matchings
+2023-04-19 02:03:00,509 [INFO] CheckServerUpdateThread:120 - End of CheckServer Thread
+2023-04-19 02:03:52,167 [INFO] CheckServerUpdateThread:120 - End of CheckServer Thread
+2023-04-19 02:04:07,525 [INFO] ApiDbMcu:507 - Load IP Config File for ARM.CMSIS.5.6.0
+2023-04-19 02:04:07,580 [WARN] SupportedApi:132 - Cannot load RTOS API schema: s4s-elt-must-match.1: The content of 'definitions' must match (annotation?, (simpleType | complexType)?, (unique | key | keyref)*)). A problem was found starting at: attribute.
+2023-04-19 02:04:07,701 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-19 02:04:18,072 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 437850312 Bytes (1073741824)
+2023-04-19 02:04:19,691 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 475072712 Bytes (1073741824)
+2023-04-19 02:04:19,936 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-04-19 02:04:19,936 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-04-19 02:04:19,936 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8
+2023-04-19 02:04:19,936 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8
+2023-04-19 02:04:19,936 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: ARM.CMSIS.5.6.0
+2023-04-19 02:04:19,936 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-04-19 02:04:19,937 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-04-19 02:04:19,937 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-04-19 02:04:19,937 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8-M TZ Device' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:19,937 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8-M TZ Device' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:19,937 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8-M TZ Device' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:19,938 [WARN] ThirdPartyIpManager:480 - Condition 'CM0_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:19,938 [WARN] ThirdPartyIpManager:480 - Condition 'CM0_BE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:19,938 [WARN] ThirdPartyIpManager:480 - Condition 'CM1_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:19,938 [WARN] ThirdPartyIpManager:480 - Condition 'CM1_BE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:19,938 [WARN] ThirdPartyIpManager:480 - Condition 'CM3_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:19,938 [WARN] ThirdPartyIpManager:480 - Condition 'CM3_BE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:19,938 [WARN] ThirdPartyIpManager:480 - Condition 'CM4_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:19,938 [WARN] ThirdPartyIpManager:480 - Condition 'CM4_BE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:19,938 [WARN] ThirdPartyIpManager:480 - Condition 'CM4_FP_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:19,939 [WARN] ThirdPartyIpManager:480 - Condition 'CM4_FP_BE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:19,939 [WARN] ThirdPartyIpManager:480 - Condition 'CM7_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:19,939 [WARN] ThirdPartyIpManager:480 - Condition 'CM7_BE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:19,939 [WARN] ThirdPartyIpManager:480 - Condition 'CM7_SP_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:19,939 [WARN] ThirdPartyIpManager:480 - Condition 'CM7_SP_BE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:19,939 [WARN] ThirdPartyIpManager:480 - Condition 'CM7_DP_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:19,939 [WARN] ThirdPartyIpManager:480 - Condition 'CM7_DP_BE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:19,939 [WARN] ThirdPartyIpManager:480 - Condition 'CM23_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:19,939 [WARN] ThirdPartyIpManager:480 - Condition 'CM33_NODSP_NOFPU_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:19,940 [WARN] ThirdPartyIpManager:480 - Condition 'CM33_DSP_NOFPU_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:19,940 [WARN] ThirdPartyIpManager:480 - Condition 'CM33_NODSP_SP_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:19,940 [WARN] ThirdPartyIpManager:480 - Condition 'CM33_DSP_SP_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:19,940 [WARN] ThirdPartyIpManager:480 - Condition 'CM35P_NODSP_NOFPU_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:19,940 [WARN] ThirdPartyIpManager:480 - Condition 'CM35P_DSP_NOFPU_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:19,940 [WARN] ThirdPartyIpManager:480 - Condition 'CM35P_NODSP_SP_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:19,940 [WARN] ThirdPartyIpManager:480 - Condition 'CM35P_DSP_SP_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:19,940 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8MBL_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:19,940 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8MML_NODSP_NOFPU_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:19,940 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8MML_DSP_NOFPU_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:19,941 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8MML_NODSP_SP_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:19,941 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8MML_DSP_SP_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:19,941 [WARN] ThirdPartyIpManager:480 - Condition 'CM0_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:19,941 [WARN] ThirdPartyIpManager:480 - Condition 'CM1_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:19,941 [WARN] ThirdPartyIpManager:480 - Condition 'CM3_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:19,941 [WARN] ThirdPartyIpManager:480 - Condition 'CM4_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:19,941 [WARN] ThirdPartyIpManager:480 - Condition 'CM7_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:19,941 [WARN] ThirdPartyIpManager:480 - Condition 'CM7_SP_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:19,941 [WARN] ThirdPartyIpManager:480 - Condition 'CM7_DP_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:19,941 [WARN] ThirdPartyIpManager:480 - Condition 'CM23_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:19,942 [WARN] ThirdPartyIpManager:480 - Condition 'CM33_NODSP_NOFPU_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:19,942 [WARN] ThirdPartyIpManager:480 - Condition 'CM33_DSP_NOFPU_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:19,942 [WARN] ThirdPartyIpManager:480 - Condition 'CM33_NODSP_SP_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:19,942 [WARN] ThirdPartyIpManager:480 - Condition 'CM33_DSP_SP_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:19,942 [WARN] ThirdPartyIpManager:480 - Condition 'CM35P_NODSP_NOFPU_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:19,942 [WARN] ThirdPartyIpManager:480 - Condition 'CM35P_DSP_NOFPU_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:19,942 [WARN] ThirdPartyIpManager:480 - Condition 'CM35P_NODSP_SP_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:19,942 [WARN] ThirdPartyIpManager:480 - Condition 'CM35P_DSP_SP_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:19,942 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8MBL_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:19,942 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8MML_NODSP_NOFPU_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:19,942 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8MML_DSP_NOFPU_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:19,943 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8MML_NODSP_SP_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:19,943 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8MML_DSP_SP_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:19,943 [WARN] ThirdPartyIpManager:480 - Condition 'CM0_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:19,943 [WARN] ThirdPartyIpManager:480 - Condition 'CM0_BE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:19,943 [WARN] ThirdPartyIpManager:480 - Condition 'CM1_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:19,943 [WARN] ThirdPartyIpManager:480 - Condition 'CM1_BE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:19,943 [WARN] ThirdPartyIpManager:480 - Condition 'CM3_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:19,943 [WARN] ThirdPartyIpManager:480 - Condition 'CM3_BE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:19,943 [WARN] ThirdPartyIpManager:480 - Condition 'CM4_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:19,943 [WARN] ThirdPartyIpManager:480 - Condition 'CM4_BE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:19,943 [WARN] ThirdPartyIpManager:480 - Condition 'CM4_FP_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:19,943 [WARN] ThirdPartyIpManager:480 - Condition 'CM4_FP_BE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:19,943 [WARN] ThirdPartyIpManager:480 - Condition 'CM7_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:19,944 [WARN] ThirdPartyIpManager:480 - Condition 'CM7_BE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:19,944 [WARN] ThirdPartyIpManager:480 - Condition 'CM7_DP_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:19,944 [WARN] ThirdPartyIpManager:480 - Condition 'CM7_DP_BE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:19,944 [WARN] ThirdPartyIpManager:480 - Condition 'CM7_SP_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:19,944 [WARN] ThirdPartyIpManager:480 - Condition 'CM7_SP_BE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:19,944 [WARN] ThirdPartyIpManager:480 - Condition 'CM23_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:19,944 [WARN] ThirdPartyIpManager:480 - Condition 'CM33_NODSP_NOFPU_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:19,944 [WARN] ThirdPartyIpManager:480 - Condition 'CM33_DSP_NOFPU_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:19,944 [WARN] ThirdPartyIpManager:480 - Condition 'CM33_NODSP_SP_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:19,944 [WARN] ThirdPartyIpManager:480 - Condition 'CM33_DSP_SP_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:19,944 [WARN] ThirdPartyIpManager:480 - Condition 'CM35P_NODSP_NOFPU_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:19,944 [WARN] ThirdPartyIpManager:480 - Condition 'CM35P_DSP_NOFPU_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:19,944 [WARN] ThirdPartyIpManager:480 - Condition 'CM35P_NODSP_SP_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:19,945 [WARN] ThirdPartyIpManager:480 - Condition 'CM35P_DSP_SP_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:19,945 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8MBL_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:19,945 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8MML_NODSP_NOFPU_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:19,945 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8MML_DSP_NOFPU_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:19,945 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8MML_NODSP_SP_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:19,945 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8MML_DSP_SP_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:19,946 [INFO] CodeGenerator:793 - code generatio: config db path: D:\ST\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.0.202302231600\\db\
+2023-04-19 02:04:20,139 [INFO] IP:3348 - RTE Config file name : RTE_Component
+2023-04-19 02:04:20,140 [INFO] IP:3366 - RTE template : RTE_Components.ftl
+2023-04-19 02:04:20,145 [INFO] CodeEngine:255 - oldGeneratedFile, D:\git\LAB4_01\Motor_PID\PID\MXTmpFiles\license.tmp_save
+2023-04-19 02:04:20,249 [INFO] CodeEngine:279 - Generated code: D:\git\LAB4_01\Motor_PID\PID\MXTmpFiles\license.tmp
+2023-04-19 02:04:20,264 [INFO] CodeEngine:255 - oldGeneratedFile, D:\git\LAB4_01\Motor_PID\PID\MXTmpFiles\gpio.tmp_save
+2023-04-19 02:04:20,356 [INFO] CodeEngine:279 - Generated code: D:\git\LAB4_01\Motor_PID\PID\MXTmpFiles\gpio.tmp
+2023-04-19 02:04:20,450 [INFO] CodeEngine:255 - oldGeneratedFile, D:\git\LAB4_01\Motor_PID\PID\Core\Src\stm32f4xx_it.c_save
+2023-04-19 02:04:20,543 [INFO] CodeEngine:279 - Generated code: D:\git\LAB4_01\Motor_PID\PID\Core\Src\stm32f4xx_it.c
+2023-04-19 02:04:20,553 [INFO] CodeEngine:255 - oldGeneratedFile, D:\git\LAB4_01\Motor_PID\PID\Core\Inc\stm32f4xx_it.h_save
+2023-04-19 02:04:20,629 [INFO] CodeEngine:279 - Generated code: D:\git\LAB4_01\Motor_PID\PID\Core\Inc\stm32f4xx_it.h
+2023-04-19 02:04:20,644 [INFO] CodeEngine:255 - oldGeneratedFile, D:\git\LAB4_01\Motor_PID\PID\Core\Src\stm32f4xx_hal_msp.c_save
+2023-04-19 02:04:20,751 [INFO] CodeEngine:279 - Generated code: D:\git\LAB4_01\Motor_PID\PID\Core\Src\stm32f4xx_hal_msp.c
+2023-04-19 02:04:20,754 [INFO] CodeEngine:255 - oldGeneratedFile, D:\git\LAB4_01\Motor_PID\PID\MXTmpFiles\system.tmp_save
+2023-04-19 02:04:20,827 [INFO] CodeEngine:279 - Generated code: D:\git\LAB4_01\Motor_PID\PID\MXTmpFiles\system.tmp
+2023-04-19 02:04:20,842 [INFO] CodeEngine:311 - oldGeneratedFile, D:\git\LAB4_01\Motor_PID\PID\Core\Inc\stm32f4xx_hal_conf.h_save
+2023-04-19 02:04:20,937 [INFO] CodeEngine:335 - Generated code: D:\git\LAB4_01\Motor_PID\PID\Core\Inc\stm32f4xx_hal_conf.h
+2023-04-19 02:04:20,959 [WARN] IPConfigManager:3431 - IP not found : TIM
+2023-04-19 02:04:20,959 [WARN] CodeGenerator:3754 - IP not found : null
+2023-04-19 02:04:20,972 [INFO] CodeEngine:255 - oldGeneratedFile, D:\git\LAB4_01\Motor_PID\PID\Core\Inc\main.h_save
+2023-04-19 02:04:21,061 [INFO] CodeEngine:279 - Generated code: D:\git\LAB4_01\Motor_PID\PID\Core\Inc\main.h
+2023-04-19 02:04:21,071 [INFO] CodeEngine:255 - oldGeneratedFile, D:\git\LAB4_01\Motor_PID\PID\Core\Src\main.c_save
+2023-04-19 02:04:21,195 [INFO] CodeEngine:279 - Generated code: D:\git\LAB4_01\Motor_PID\PID\Core\Src\main.c
+2023-04-19 02:04:22,102 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 321mS.
+2023-04-19 02:04:22,102 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8-M TZ Device' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:22,102 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8-M TZ Device' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:22,103 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8-M TZ Device' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:22,103 [WARN] ThirdPartyIpManager:480 - Condition 'CM0_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:22,103 [WARN] ThirdPartyIpManager:480 - Condition 'CM0_BE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:22,103 [WARN] ThirdPartyIpManager:480 - Condition 'CM1_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:22,103 [WARN] ThirdPartyIpManager:480 - Condition 'CM1_BE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:22,103 [WARN] ThirdPartyIpManager:480 - Condition 'CM3_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:22,103 [WARN] ThirdPartyIpManager:480 - Condition 'CM3_BE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:22,103 [WARN] ThirdPartyIpManager:480 - Condition 'CM4_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:22,103 [WARN] ThirdPartyIpManager:480 - Condition 'CM4_BE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:22,103 [WARN] ThirdPartyIpManager:480 - Condition 'CM4_FP_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:22,103 [WARN] ThirdPartyIpManager:480 - Condition 'CM4_FP_BE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:22,103 [WARN] ThirdPartyIpManager:480 - Condition 'CM7_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:22,103 [WARN] ThirdPartyIpManager:480 - Condition 'CM7_BE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:22,103 [WARN] ThirdPartyIpManager:480 - Condition 'CM7_SP_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:22,103 [WARN] ThirdPartyIpManager:480 - Condition 'CM7_SP_BE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:22,104 [WARN] ThirdPartyIpManager:480 - Condition 'CM7_DP_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:22,104 [WARN] ThirdPartyIpManager:480 - Condition 'CM7_DP_BE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:22,104 [WARN] ThirdPartyIpManager:480 - Condition 'CM23_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:22,104 [WARN] ThirdPartyIpManager:480 - Condition 'CM33_NODSP_NOFPU_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:22,104 [WARN] ThirdPartyIpManager:480 - Condition 'CM33_DSP_NOFPU_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:22,104 [WARN] ThirdPartyIpManager:480 - Condition 'CM33_NODSP_SP_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:22,104 [WARN] ThirdPartyIpManager:480 - Condition 'CM33_DSP_SP_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:22,104 [WARN] ThirdPartyIpManager:480 - Condition 'CM35P_NODSP_NOFPU_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:22,104 [WARN] ThirdPartyIpManager:480 - Condition 'CM35P_DSP_NOFPU_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:22,104 [WARN] ThirdPartyIpManager:480 - Condition 'CM35P_NODSP_SP_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:22,104 [WARN] ThirdPartyIpManager:480 - Condition 'CM35P_DSP_SP_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:22,104 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8MBL_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:22,104 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8MML_NODSP_NOFPU_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:22,104 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8MML_DSP_NOFPU_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:22,104 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8MML_NODSP_SP_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:22,104 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8MML_DSP_SP_LE_ARMCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:22,104 [WARN] ThirdPartyIpManager:480 - Condition 'CM0_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:22,104 [WARN] ThirdPartyIpManager:480 - Condition 'CM1_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:22,105 [WARN] ThirdPartyIpManager:480 - Condition 'CM3_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:22,105 [WARN] ThirdPartyIpManager:480 - Condition 'CM4_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:22,105 [WARN] ThirdPartyIpManager:480 - Condition 'CM7_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:22,105 [WARN] ThirdPartyIpManager:480 - Condition 'CM7_SP_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:22,105 [WARN] ThirdPartyIpManager:480 - Condition 'CM7_DP_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:22,105 [WARN] ThirdPartyIpManager:480 - Condition 'CM23_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:22,105 [WARN] ThirdPartyIpManager:480 - Condition 'CM33_NODSP_NOFPU_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:22,105 [WARN] ThirdPartyIpManager:480 - Condition 'CM33_DSP_NOFPU_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:22,105 [WARN] ThirdPartyIpManager:480 - Condition 'CM33_NODSP_SP_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:22,105 [WARN] ThirdPartyIpManager:480 - Condition 'CM33_DSP_SP_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:22,105 [WARN] ThirdPartyIpManager:480 - Condition 'CM35P_NODSP_NOFPU_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:22,105 [WARN] ThirdPartyIpManager:480 - Condition 'CM35P_DSP_NOFPU_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:22,105 [WARN] ThirdPartyIpManager:480 - Condition 'CM35P_NODSP_SP_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:22,105 [WARN] ThirdPartyIpManager:480 - Condition 'CM35P_DSP_SP_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:22,105 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8MBL_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:22,105 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8MML_NODSP_NOFPU_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:22,105 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8MML_DSP_NOFPU_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:22,106 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8MML_NODSP_SP_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:22,106 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8MML_DSP_SP_LE_GCC' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:22,106 [WARN] ThirdPartyIpManager:480 - Condition 'CM0_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:22,106 [WARN] ThirdPartyIpManager:480 - Condition 'CM0_BE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:22,106 [WARN] ThirdPartyIpManager:480 - Condition 'CM1_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:22,106 [WARN] ThirdPartyIpManager:480 - Condition 'CM1_BE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:22,106 [WARN] ThirdPartyIpManager:480 - Condition 'CM3_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:22,106 [WARN] ThirdPartyIpManager:480 - Condition 'CM3_BE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:22,106 [WARN] ThirdPartyIpManager:480 - Condition 'CM4_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:22,106 [WARN] ThirdPartyIpManager:480 - Condition 'CM4_BE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:22,106 [WARN] ThirdPartyIpManager:480 - Condition 'CM4_FP_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:22,106 [WARN] ThirdPartyIpManager:480 - Condition 'CM4_FP_BE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:22,106 [WARN] ThirdPartyIpManager:480 - Condition 'CM7_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:22,106 [WARN] ThirdPartyIpManager:480 - Condition 'CM7_BE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:22,106 [WARN] ThirdPartyIpManager:480 - Condition 'CM7_DP_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:22,106 [WARN] ThirdPartyIpManager:480 - Condition 'CM7_DP_BE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:22,106 [WARN] ThirdPartyIpManager:480 - Condition 'CM7_SP_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:22,106 [WARN] ThirdPartyIpManager:480 - Condition 'CM7_SP_BE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:22,107 [WARN] ThirdPartyIpManager:480 - Condition 'CM23_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:22,107 [WARN] ThirdPartyIpManager:480 - Condition 'CM33_NODSP_NOFPU_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:22,107 [WARN] ThirdPartyIpManager:480 - Condition 'CM33_DSP_NOFPU_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:22,107 [WARN] ThirdPartyIpManager:480 - Condition 'CM33_NODSP_SP_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:22,107 [WARN] ThirdPartyIpManager:480 - Condition 'CM33_DSP_SP_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:22,107 [WARN] ThirdPartyIpManager:480 - Condition 'CM35P_NODSP_NOFPU_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:22,107 [WARN] ThirdPartyIpManager:480 - Condition 'CM35P_DSP_NOFPU_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:22,107 [WARN] ThirdPartyIpManager:480 - Condition 'CM35P_NODSP_SP_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:22,107 [WARN] ThirdPartyIpManager:480 - Condition 'CM35P_DSP_SP_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:22,107 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8MBL_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:22,107 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8MML_NODSP_NOFPU_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:22,107 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8MML_DSP_NOFPU_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:22,107 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8MML_NODSP_SP_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:22,107 [WARN] ThirdPartyIpManager:480 - Condition 'ARMv8MML_DSP_SP_LE_IAR' not fulfilled in pack 'ARM.CMSIS.5.6.0'
+2023-04-19 02:04:22,188 [INFO] ProjectBuilder:8409 - Time for Copy ThirdParty[1] : 79mS.
+2023-04-19 02:04:22,249 [INFO] ProjectBuilder:8409 - Time for Copy ThirdParty[1] : 61mS.
+2023-04-19 02:04:22,252 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-04-19 02:04:22,493 [INFO] ConfigFileManager:1483 - The Die is : DIE431
+2023-04-19 02:04:23,694 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 1442mS.
+2023-04-19 02:04:23,695 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 1mS.
+2023-04-19 02:04:23,703 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 1mS.
+2023-04-19 06:25:07,418 [INFO] Activator:176 - 
+
+
+2023-04-19 06:25:07,421 [INFO] Activator:177 - !SESSION log4j initialized
+2023-04-19 06:25:15,817 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 
+2023-04-19 06:25:38,344 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2023-04-19 06:25:38,345 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2023-04-19 06:25:38,347 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2023-04-19 08:00:25,861 [INFO] Activator:176 - 
+
+
+2023-04-19 08:00:25,865 [INFO] Activator:177 - !SESSION log4j initialized
+2023-04-19 08:00:35,319 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 
+2023-04-19 08:00:58,968 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2023-04-19 08:00:58,968 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2023-04-19 08:00:58,970 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.

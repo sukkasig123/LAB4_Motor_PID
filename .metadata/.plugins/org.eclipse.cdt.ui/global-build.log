@@ -1,0 +1,849 @@
+02:28:24 **** Incremental Build of configuration Debug for project PID ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core_A/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "PID.elf" @"objects.list"  -l:libarm_cortexM4lf_math.a -mcpu=cortex-m4 -T"D:\git\LAB4_01\Motor_PID\PID\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="PID.map" -Wl,--gc-sections -static -L../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/Lib/GCC --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: PID.elf
+ 
+arm-none-eabi-size   PID.elf 
+arm-none-eabi-objdump -h -S  PID.elf  > "PID.list"
+   text	   data	    bss	    dec	    hex	filename
+  16672	     24	   1824	  18520	   4858	PID.elf
+Finished building: default.size.stdout
+ 
+Finished building: PID.list
+ 
+02:29:05 **** Incremental Build of configuration Debug for project PID ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core_A/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "PID.elf" @"objects.list"  -l:libarm_cortexM4lf_math.a -mcpu=cortex-m4 -T"D:\git\LAB4_01\Motor_PID\PID\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="PID.map" -Wl,--gc-sections -static -L../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/Lib/GCC --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: PID.elf
+ 
+arm-none-eabi-size   PID.elf 
+arm-none-eabi-objdump -h -S  PID.elf  > "PID.list"
+   text	   data	    bss	    dec	    hex	filename
+  16752	     24	   1824	  18600	   48a8	PID.elf
+Finished building: default.size.stdout
+ 
+Finished building: PID.list
+ 
+02:30:41 **** Incremental Build of configuration Debug for project PID ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core_A/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "PID.elf" @"objects.list"  -l:libarm_cortexM4lf_math.a -mcpu=cortex-m4 -T"D:\git\LAB4_01\Motor_PID\PID\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="PID.map" -Wl,--gc-sections -static -L../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/Lib/GCC --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: PID.elf
+ 
+arm-none-eabi-size   PID.elf 
+arm-none-eabi-objdump -h -S  PID.elf  > "PID.list"
+   text	   data	    bss	    dec	    hex	filename
+  16756	     24	   1824	  18604	   48ac	PID.elf
+Finished building: default.size.stdout
+ 
+Finished building: PID.list
+ 
+02:40:56 **** Incremental Build of configuration Debug for project PID ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core_A/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "PID.elf" @"objects.list"  -l:libarm_cortexM4lf_math.a -mcpu=cortex-m4 -T"D:\git\LAB4_01\Motor_PID\PID\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="PID.map" -Wl,--gc-sections -static -L../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/Lib/GCC --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: PID.elf
+ 
+arm-none-eabi-size   PID.elf 
+arm-none-eabi-objdump -h -S  PID.elf  > "PID.list"
+   text	   data	    bss	    dec	    hex	filename
+  16756	     24	   1824	  18604	   48ac	PID.elf
+Finished building: default.size.stdout
+ 
+Finished building: PID.list
+ 
+02:44:26 **** Incremental Build of configuration Debug for project PID ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core_A/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "PID.elf" @"objects.list"  -l:libarm_cortexM4lf_math.a -mcpu=cortex-m4 -T"D:\git\LAB4_01\Motor_PID\PID\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="PID.map" -Wl,--gc-sections -static -L../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/Lib/GCC --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: PID.elf
+ 
+arm-none-eabi-size   PID.elf 
+arm-none-eabi-objdump -h -S  PID.elf  > "PID.list"
+   text	   data	    bss	    dec	    hex	filename
+  16756	     24	   1824	  18604	   48ac	PID.elf
+Finished building: default.size.stdout
+ 
+Finished building: PID.list
+ 
+02:45:58 **** Incremental Build of configuration Debug for project PID ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core_A/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "PID.elf" @"objects.list"  -l:libarm_cortexM4lf_math.a -mcpu=cortex-m4 -T"D:\git\LAB4_01\Motor_PID\PID\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="PID.map" -Wl,--gc-sections -static -L../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/Lib/GCC --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: PID.elf
+ 
+arm-none-eabi-size   PID.elf 
+arm-none-eabi-objdump -h -S  PID.elf  > "PID.list"
+   text	   data	    bss	    dec	    hex	filename
+  16756	     24	   1824	  18604	   48ac	PID.elf
+Finished building: default.size.stdout
+ 
+Finished building: PID.list
+ 
+02:52:18 **** Incremental Build of configuration Debug for project PID ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core_A/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:145:17: warning: implicit declaration of function 'abs' [-Wimplicit-function-declaration]
+  145 |    duty_cycle = abs(degreefeedback);
+      |                 ^~~
+../Core/Src/main.c:145:21: warning: 'abs' argument 1 type is 'double' where 'int' is expected in a call to built-in function declared without prototype [-Wbuiltin-declaration-mismatch]
+  145 |    duty_cycle = abs(degreefeedback);
+      |                     ^~~~~~~~~~~~~~
+<built-in>: note: built-in 'abs' declared here
+arm-none-eabi-gcc -o "PID.elf" @"objects.list"  -l:libarm_cortexM4lf_math.a -mcpu=cortex-m4 -T"D:\git\LAB4_01\Motor_PID\PID\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="PID.map" -Wl,--gc-sections -static -L../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/Lib/GCC --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: PID.elf
+ 
+arm-none-eabi-size   PID.elf 
+arm-none-eabi-objdump -h -S  PID.elf  > "PID.list"
+   text	   data	    bss	    dec	    hex	filename
+  16692	     24	   1832	  18548	   4874	PID.elf
+Finished building: default.size.stdout
+ 
+Finished building: PID.list
+ 
+02:53:45 **** Incremental Build of configuration Debug for project PID ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core_A/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:145:17: warning: implicit declaration of function 'abs' [-Wimplicit-function-declaration]
+  145 |    duty_cycle = abs(degreefeedback);
+      |                 ^~~
+../Core/Src/main.c:145:21: warning: 'abs' argument 1 type is 'double' where 'int' is expected in a call to built-in function declared without prototype [-Wbuiltin-declaration-mismatch]
+  145 |    duty_cycle = abs(degreefeedback);
+      |                     ^~~~~~~~~~~~~~
+<built-in>: note: built-in 'abs' declared here
+arm-none-eabi-gcc -o "PID.elf" @"objects.list"  -l:libarm_cortexM4lf_math.a -mcpu=cortex-m4 -T"D:\git\LAB4_01\Motor_PID\PID\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="PID.map" -Wl,--gc-sections -static -L../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/Lib/GCC --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: PID.elf
+ 
+arm-none-eabi-size   PID.elf 
+arm-none-eabi-objdump -h -S  PID.elf  > "PID.list"
+   text	   data	    bss	    dec	    hex	filename
+  16684	     24	   1832	  18540	   486c	PID.elf
+Finished building: default.size.stdout
+ 
+Finished building: PID.list
+ 
+02:54:05 **** Incremental Build of configuration Debug for project PID ****
+make -j16 all 
+arm-none-eabi-size   PID.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16684	     24	   1832	  18540	   486c	PID.elf
+Finished building: default.size.stdout
+ 
+02:55:19 **** Incremental Build of configuration Debug for project PID ****
+make -j16 all 
+arm-none-eabi-size   PID.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16684	     24	   1832	  18540	   486c	PID.elf
+Finished building: default.size.stdout
+ 
+03:01:03 **** Incremental Build of configuration Debug for project PID ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core_A/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:145:17: warning: implicit declaration of function 'abs' [-Wimplicit-function-declaration]
+  145 |    duty_cycle = abs(degreefeedback);
+      |                 ^~~
+../Core/Src/main.c:145:21: warning: 'abs' argument 1 type is 'double' where 'int' is expected in a call to built-in function declared without prototype [-Wbuiltin-declaration-mismatch]
+  145 |    duty_cycle = abs(degreefeedback);
+      |                     ^~~~~~~~~~~~~~
+<built-in>: note: built-in 'abs' declared here
+arm-none-eabi-gcc -o "PID.elf" @"objects.list"  -l:libarm_cortexM4lf_math.a -mcpu=cortex-m4 -T"D:\git\LAB4_01\Motor_PID\PID\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="PID.map" -Wl,--gc-sections -static -L../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/Lib/GCC --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: PID.elf
+ 
+arm-none-eabi-size   PID.elf 
+arm-none-eabi-objdump -h -S  PID.elf  > "PID.list"
+   text	   data	    bss	    dec	    hex	filename
+  16692	     24	   1832	  18548	   4874	PID.elf
+Finished building: default.size.stdout
+ 
+Finished building: PID.list
+ 
+03:05:10 **** Incremental Build of configuration Debug for project PID ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core_A/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:145:17: warning: implicit declaration of function 'abs' [-Wimplicit-function-declaration]
+  145 |    duty_cycle = abs(degreefeedback);
+      |                 ^~~
+../Core/Src/main.c:145:21: warning: 'abs' argument 1 type is 'double' where 'int' is expected in a call to built-in function declared without prototype [-Wbuiltin-declaration-mismatch]
+  145 |    duty_cycle = abs(degreefeedback);
+      |                     ^~~~~~~~~~~~~~
+<built-in>: note: built-in 'abs' declared here
+arm-none-eabi-gcc -o "PID.elf" @"objects.list"  -l:libarm_cortexM4lf_math.a -mcpu=cortex-m4 -T"D:\git\LAB4_01\Motor_PID\PID\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="PID.map" -Wl,--gc-sections -static -L../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/Lib/GCC --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: PID.elf
+ 
+arm-none-eabi-size   PID.elf 
+arm-none-eabi-objdump -h -S  PID.elf  > "PID.list"
+   text	   data	    bss	    dec	    hex	filename
+  16684	     24	   1832	  18540	   486c	PID.elf
+Finished building: default.size.stdout
+ 
+Finished building: PID.list
+ 
+03:05:22 **** Incremental Build of configuration Debug for project PID ****
+make -j16 all 
+arm-none-eabi-size   PID.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16684	     24	   1832	  18540	   486c	PID.elf
+Finished building: default.size.stdout
+ 
+03:18:31 **** Incremental Build of configuration Debug for project PID ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core_A/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:145:17: warning: implicit declaration of function 'abs' [-Wimplicit-function-declaration]
+  145 |    duty_cycle = abs(degreefeedback);
+      |                 ^~~
+../Core/Src/main.c:145:21: warning: 'abs' argument 1 type is 'double' where 'int' is expected in a call to built-in function declared without prototype [-Wbuiltin-declaration-mismatch]
+  145 |    duty_cycle = abs(degreefeedback);
+      |                     ^~~~~~~~~~~~~~
+<built-in>: note: built-in 'abs' declared here
+arm-none-eabi-gcc -o "PID.elf" @"objects.list"  -l:libarm_cortexM4lf_math.a -mcpu=cortex-m4 -T"D:\git\LAB4_01\Motor_PID\PID\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="PID.map" -Wl,--gc-sections -static -L../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/Lib/GCC --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: PID.elf
+ 
+arm-none-eabi-size   PID.elf 
+arm-none-eabi-objdump -h -S  PID.elf  > "PID.list"
+   text	   data	    bss	    dec	    hex	filename
+  16676	     24	   1832	  18532	   4864	PID.elf
+Finished building: default.size.stdout
+ 
+Finished building: PID.list
+ 
+03:32:09 **** Incremental Build of configuration Debug for project PID ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core_A/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:145:17: warning: implicit declaration of function 'abs' [-Wimplicit-function-declaration]
+  145 |    duty_cycle = abs(degreefeedback);
+      |                 ^~~
+../Core/Src/main.c:145:21: warning: 'abs' argument 1 type is 'double' where 'int' is expected in a call to built-in function declared without prototype [-Wbuiltin-declaration-mismatch]
+  145 |    duty_cycle = abs(degreefeedback);
+      |                     ^~~~~~~~~~~~~~
+<built-in>: note: built-in 'abs' declared here
+arm-none-eabi-gcc -o "PID.elf" @"objects.list"  -l:libarm_cortexM4lf_math.a -mcpu=cortex-m4 -T"D:\git\LAB4_01\Motor_PID\PID\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="PID.map" -Wl,--gc-sections -static -L../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/Lib/GCC --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: PID.elf
+ 
+arm-none-eabi-size   PID.elf 
+arm-none-eabi-objdump -h -S  PID.elf  > "PID.list"
+   text	   data	    bss	    dec	    hex	filename
+  16100	     24	   1832	  17956	   4624	PID.elf
+Finished building: default.size.stdout
+ 
+Finished building: PID.list
+ 
+03:34:43 **** Incremental Build of configuration Debug for project PID ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core_A/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:145:17: warning: implicit declaration of function 'abs' [-Wimplicit-function-declaration]
+  145 |    duty_cycle = abs(degreefeedback);
+      |                 ^~~
+../Core/Src/main.c:145:21: warning: 'abs' argument 1 type is 'double' where 'int' is expected in a call to built-in function declared without prototype [-Wbuiltin-declaration-mismatch]
+  145 |    duty_cycle = abs(degreefeedback);
+      |                     ^~~~~~~~~~~~~~
+<built-in>: note: built-in 'abs' declared here
+arm-none-eabi-gcc -o "PID.elf" @"objects.list"  -l:libarm_cortexM4lf_math.a -mcpu=cortex-m4 -T"D:\git\LAB4_01\Motor_PID\PID\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="PID.map" -Wl,--gc-sections -static -L../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/Lib/GCC --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: PID.elf
+ 
+arm-none-eabi-size   PID.elf 
+arm-none-eabi-objdump -h -S  PID.elf  > "PID.list"
+   text	   data	    bss	    dec	    hex	filename
+  16700	     24	   1832	  18556	   487c	PID.elf
+Finished building: default.size.stdout
+ 
+Finished building: PID.list
+ 
+03:41:10 **** Incremental Build of configuration Debug for project PID ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core_A/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:147:8: warning: implicit declaration of function 'abs' [-Wimplicit-function-declaration]
+  147 |    if (abs(degreefeedback<=200)){
+      |        ^~~
+../Core/Src/main.c:148:5: error: 'dutycycycle' undeclared (first use in this function); did you mean 'dutycycle'?
+  148 |     dutycycycle = 200;
+      |     ^~~~~~~~~~~
+      |     dutycycle
+../Core/Src/main.c:148:5: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:151:21: warning: 'abs' argument 1 type is 'double' where 'int' is expected in a call to built-in function declared without prototype [-Wbuiltin-declaration-mismatch]
+  151 |     dutycycle = abs(degreefeedback);
+      |                     ^~~~~~~~~~~~~~
+<built-in>: note: built-in 'abs' declared here
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+03:41:46 **** Incremental Build of configuration Debug for project PID ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core_A/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:147:8: warning: implicit declaration of function 'abs' [-Wimplicit-function-declaration]
+  147 |    if (abs(degreefeedback<=200)){
+      |        ^~~
+../Core/Src/main.c:148:5: error: 'dutycycycle' undeclared (first use in this function); did you mean 'dutycycle'?
+  148 |     dutycycycle = 200;
+      |     ^~~~~~~~~~~
+      |     dutycycle
+../Core/Src/main.c:148:5: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+03:42:01 **** Incremental Build of configuration Debug for project PID ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core_A/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:147:8: warning: implicit declaration of function 'abs' [-Wimplicit-function-declaration]
+  147 |    if (abs(degreefeedback<=200)){
+      |        ^~~
+arm-none-eabi-gcc -o "PID.elf" @"objects.list"  -l:libarm_cortexM4lf_math.a -mcpu=cortex-m4 -T"D:\git\LAB4_01\Motor_PID\PID\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="PID.map" -Wl,--gc-sections -static -L../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/Lib/GCC --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: PID.elf
+ 
+arm-none-eabi-size   PID.elf 
+arm-none-eabi-objdump -h -S  PID.elf  > "PID.list"
+   text	   data	    bss	    dec	    hex	filename
+  16332	     24	   1824	  18180	   4704	PID.elf
+Finished building: default.size.stdout
+ 
+Finished building: PID.list
+ 
+03:44:28 **** Incremental Build of configuration Debug for project PID ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core_A/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:145:8: warning: unused variable 'dutycycle' [-Wunused-variable]
+  145 |    int dutycycle;
+      |        ^~~~~~~~~
+arm-none-eabi-gcc -o "PID.elf" @"objects.list"  -l:libarm_cortexM4lf_math.a -mcpu=cortex-m4 -T"D:\git\LAB4_01\Motor_PID\PID\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="PID.map" -Wl,--gc-sections -static -L../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/Lib/GCC --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: PID.elf
+ 
+arm-none-eabi-size   PID.elf 
+arm-none-eabi-objdump -h -S  PID.elf  > "PID.list"
+   text	   data	    bss	    dec	    hex	filename
+  16708	     24	   1824	  18556	   487c	PID.elf
+Finished building: default.size.stdout
+ 
+Finished building: PID.list
+ 
+03:45:34 **** Incremental Build of configuration Debug for project PID ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core_A/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:145:8: warning: unused variable 'dutycycle' [-Wunused-variable]
+  145 |    int dutycycle;
+      |        ^~~~~~~~~
+arm-none-eabi-gcc -o "PID.elf" @"objects.list"  -l:libarm_cortexM4lf_math.a -mcpu=cortex-m4 -T"D:\git\LAB4_01\Motor_PID\PID\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="PID.map" -Wl,--gc-sections -static -L../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/Lib/GCC --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: PID.elf
+ 
+arm-none-eabi-size   PID.elf 
+arm-none-eabi-objdump -h -S  PID.elf  > "PID.list"
+   text	   data	    bss	    dec	    hex	filename
+  16708	     24	   1824	  18556	   487c	PID.elf
+Finished building: default.size.stdout
+ 
+Finished building: PID.list
+ 
+03:46:35 **** Incremental Build of configuration Debug for project PID ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core_A/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "PID.elf" @"objects.list"  -l:libarm_cortexM4lf_math.a -mcpu=cortex-m4 -T"D:\git\LAB4_01\Motor_PID\PID\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="PID.map" -Wl,--gc-sections -static -L../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/Lib/GCC --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: PID.elf
+ 
+arm-none-eabi-size   PID.elf 
+arm-none-eabi-objdump -h -S  PID.elf  > "PID.list"
+   text	   data	    bss	    dec	    hex	filename
+  16708	     24	   1824	  18556	   487c	PID.elf
+Finished building: default.size.stdout
+ 
+Finished building: PID.list
+ 
+03:51:44 **** Incremental Build of configuration Debug for project PID ****
+make -j16 all 
+arm-none-eabi-size   PID.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16708	     24	   1824	  18556	   487c	PID.elf
+Finished building: default.size.stdout
+ 
+03:52:35 **** Incremental Build of configuration Debug for project PID ****
+make -j16 all 
+arm-none-eabi-size   PID.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16708	     24	   1824	  18556	   487c	PID.elf
+Finished building: default.size.stdout
+ 
+03:53:12 **** Incremental Build of configuration Debug for project PID ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core_A/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "PID.elf" @"objects.list"  -l:libarm_cortexM4lf_math.a -mcpu=cortex-m4 -T"D:\git\LAB4_01\Motor_PID\PID\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="PID.map" -Wl,--gc-sections -static -L../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/Lib/GCC --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: PID.elf
+ 
+arm-none-eabi-size   PID.elf 
+arm-none-eabi-objdump -h -S  PID.elf  > "PID.list"
+   text	   data	    bss	    dec	    hex	filename
+  16708	     24	   1824	  18556	   487c	PID.elf
+Finished building: default.size.stdout
+ 
+Finished building: PID.list
+ 
+03:53:54 **** Incremental Build of configuration Debug for project PID ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core_A/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "PID.elf" @"objects.list"  -l:libarm_cortexM4lf_math.a -mcpu=cortex-m4 -T"D:\git\LAB4_01\Motor_PID\PID\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="PID.map" -Wl,--gc-sections -static -L../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/Lib/GCC --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: PID.elf
+ 
+arm-none-eabi-size   PID.elf 
+arm-none-eabi-objdump -h -S  PID.elf  > "PID.list"
+   text	   data	    bss	    dec	    hex	filename
+  16708	     24	   1824	  18556	   487c	PID.elf
+Finished building: default.size.stdout
+ 
+Finished building: PID.list
+ 
+03:55:55 **** Incremental Build of configuration Debug for project PID ****
+make -j16 all 
+arm-none-eabi-size   PID.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16708	     24	   1824	  18556	   487c	PID.elf
+Finished building: default.size.stdout
+ 
+03:56:56 **** Incremental Build of configuration Debug for project PID ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core_A/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "PID.elf" @"objects.list"  -l:libarm_cortexM4lf_math.a -mcpu=cortex-m4 -T"D:\git\LAB4_01\Motor_PID\PID\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="PID.map" -Wl,--gc-sections -static -L../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/Lib/GCC --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: PID.elf
+ 
+arm-none-eabi-size   PID.elf 
+arm-none-eabi-objdump -h -S  PID.elf  > "PID.list"
+   text	   data	    bss	    dec	    hex	filename
+  16676	     24	   1824	  18524	   485c	PID.elf
+Finished building: default.size.stdout
+ 
+Finished building: PID.list
+ 
+04:05:57 **** Incremental Build of configuration Debug for project PID ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core_A/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "PID.elf" @"objects.list"  -l:libarm_cortexM4lf_math.a -mcpu=cortex-m4 -T"D:\git\LAB4_01\Motor_PID\PID\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="PID.map" -Wl,--gc-sections -static -L../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/Lib/GCC --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: PID.elf
+ 
+arm-none-eabi-size   PID.elf 
+arm-none-eabi-objdump -h -S  PID.elf  > "PID.list"
+   text	   data	    bss	    dec	    hex	filename
+  16756	     24	   1824	  18604	   48ac	PID.elf
+Finished building: default.size.stdout
+ 
+Finished building: PID.list
+ 
+04:06:58 **** Incremental Build of configuration Debug for project PID ****
+make -j16 all 
+arm-none-eabi-size   PID.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16756	     24	   1824	  18604	   48ac	PID.elf
+Finished building: default.size.stdout
+ 
+04:08:16 **** Incremental Build of configuration Debug for project PID ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core_A/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "PID.elf" @"objects.list"  -l:libarm_cortexM4lf_math.a -mcpu=cortex-m4 -T"D:\git\LAB4_01\Motor_PID\PID\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="PID.map" -Wl,--gc-sections -static -L../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/Lib/GCC --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: PID.elf
+ 
+arm-none-eabi-size   PID.elf 
+arm-none-eabi-objdump -h -S  PID.elf  > "PID.list"
+   text	   data	    bss	    dec	    hex	filename
+  16748	     24	   1824	  18596	   48a4	PID.elf
+Finished building: default.size.stdout
+ 
+Finished building: PID.list
+ 
+04:16:12 **** Incremental Build of configuration Debug for project PID ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core_A/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "PID.elf" @"objects.list"  -l:libarm_cortexM4lf_math.a -mcpu=cortex-m4 -T"D:\git\LAB4_01\Motor_PID\PID\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="PID.map" -Wl,--gc-sections -static -L../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/Lib/GCC --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: PID.elf
+ 
+arm-none-eabi-size   PID.elf 
+arm-none-eabi-objdump -h -S  PID.elf  > "PID.list"
+   text	   data	    bss	    dec	    hex	filename
+  16764	     24	   1832	  18620	   48bc	PID.elf
+Finished building: default.size.stdout
+ 
+Finished building: PID.list
+ 
+04:21:09 **** Incremental Build of configuration Debug for project PID ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core_A/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "PID.elf" @"objects.list"  -l:libarm_cortexM4lf_math.a -mcpu=cortex-m4 -T"D:\git\LAB4_01\Motor_PID\PID\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="PID.map" -Wl,--gc-sections -static -L../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/Lib/GCC --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: PID.elf
+ 
+arm-none-eabi-size   PID.elf 
+arm-none-eabi-objdump -h -S  PID.elf  > "PID.list"
+   text	   data	    bss	    dec	    hex	filename
+  16756	     24	   1832	  18612	   48b4	PID.elf
+Finished building: default.size.stdout
+ 
+Finished building: PID.list
+ 
+04:29:45 **** Incremental Build of configuration Debug for project PID ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core_A/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:151:9: warning: implicit declaration of function 'abs' [-Wimplicit-function-declaration]
+  151 |    if ((abs(temp) <= 100) && (abs(temp) > 0))
+      |         ^~~
+../Core/Src/main.c:151:7: warning: suggest explicit braces to avoid ambiguous 'else' [-Wdangling-else]
+  151 |    if ((abs(temp) <= 100) && (abs(temp) > 0))
+      |       ^
+arm-none-eabi-gcc -o "PID.elf" @"objects.list"  -l:libarm_cortexM4lf_math.a -mcpu=cortex-m4 -T"D:\git\LAB4_01\Motor_PID\PID\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="PID.map" -Wl,--gc-sections -static -L../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/Lib/GCC --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: PID.elf
+ 
+arm-none-eabi-size   PID.elf 
+arm-none-eabi-objdump -h -S  PID.elf  > "PID.list"
+   text	   data	    bss	    dec	    hex	filename
+  16788	     24	   1832	  18644	   48d4	PID.elf
+Finished building: default.size.stdout
+ 
+Finished building: PID.list
+ 
+04:37:11 **** Incremental Build of configuration Debug for project PID ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core_A/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:151:9: warning: implicit declaration of function 'abs' [-Wimplicit-function-declaration]
+  151 |    if ((abs(temp) <= 100) && (abs(temp) > 0))
+      |         ^~~
+../Core/Src/main.c:151:7: warning: suggest explicit braces to avoid ambiguous 'else' [-Wdangling-else]
+  151 |    if ((abs(temp) <= 100) && (abs(temp) > 0))
+      |       ^
+arm-none-eabi-gcc -o "PID.elf" @"objects.list"  -l:libarm_cortexM4lf_math.a -mcpu=cortex-m4 -T"D:\git\LAB4_01\Motor_PID\PID\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="PID.map" -Wl,--gc-sections -static -L../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/Lib/GCC --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: PID.elf
+ 
+arm-none-eabi-size   PID.elf 
+arm-none-eabi-objdump -h -S  PID.elf  > "PID.list"
+   text	   data	    bss	    dec	    hex	filename
+  16788	     24	   1832	  18644	   48d4	PID.elf
+Finished building: default.size.stdout
+ 
+Finished building: PID.list
+ 
+04:38:01 **** Incremental Build of configuration Debug for project PID ****
+make -j16 all 
+arm-none-eabi-size   PID.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16788	     24	   1832	  18644	   48d4	PID.elf
+Finished building: default.size.stdout
+ 
+04:43:56 **** Incremental Build of configuration Debug for project PID ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core_A/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:151:9: warning: implicit declaration of function 'abs' [-Wimplicit-function-declaration]
+  151 |    if ((abs(temp) <= 100) && (abs(temp) > 0))
+      |         ^~~
+../Core/Src/main.c:151:7: warning: suggest explicit braces to avoid ambiguous 'else' [-Wdangling-else]
+  151 |    if ((abs(temp) <= 100) && (abs(temp) > 0))
+      |       ^
+arm-none-eabi-gcc -o "PID.elf" @"objects.list"  -l:libarm_cortexM4lf_math.a -mcpu=cortex-m4 -T"D:\git\LAB4_01\Motor_PID\PID\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="PID.map" -Wl,--gc-sections -static -L../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/Lib/GCC --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: PID.elf
+ 
+arm-none-eabi-size   PID.elf 
+arm-none-eabi-objdump -h -S  PID.elf  > "PID.list"
+   text	   data	    bss	    dec	    hex	filename
+  16788	     24	   1832	  18644	   48d4	PID.elf
+Finished building: default.size.stdout
+ 
+Finished building: PID.list
+ 
+04:46:19 **** Incremental Build of configuration Debug for project PID ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core_A/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:151:9: warning: implicit declaration of function 'abs' [-Wimplicit-function-declaration]
+  151 |    if ((abs(temp) <= 100) && (abs(temp) > 0))
+      |         ^~~
+../Core/Src/main.c:151:7: warning: suggest explicit braces to avoid ambiguous 'else' [-Wdangling-else]
+  151 |    if ((abs(temp) <= 100) && (abs(temp) > 0))
+      |       ^
+arm-none-eabi-gcc -o "PID.elf" @"objects.list"  -l:libarm_cortexM4lf_math.a -mcpu=cortex-m4 -T"D:\git\LAB4_01\Motor_PID\PID\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="PID.map" -Wl,--gc-sections -static -L../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/Lib/GCC --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: PID.elf
+ 
+arm-none-eabi-size   PID.elf 
+arm-none-eabi-objdump -h -S  PID.elf  > "PID.list"
+   text	   data	    bss	    dec	    hex	filename
+  16812	     24	   1832	  18668	   48ec	PID.elf
+Finished building: default.size.stdout
+ 
+Finished building: PID.list
+ 
+04:47:20 **** Incremental Build of configuration Debug for project PID ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core_A/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:151:9: warning: implicit declaration of function 'abs' [-Wimplicit-function-declaration]
+  151 |    if ((abs(temp) <= 150) && (abs(temp) > 0))
+      |         ^~~
+../Core/Src/main.c:151:7: warning: suggest explicit braces to avoid ambiguous 'else' [-Wdangling-else]
+  151 |    if ((abs(temp) <= 150) && (abs(temp) > 0))
+      |       ^
+arm-none-eabi-gcc -o "PID.elf" @"objects.list"  -l:libarm_cortexM4lf_math.a -mcpu=cortex-m4 -T"D:\git\LAB4_01\Motor_PID\PID\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="PID.map" -Wl,--gc-sections -static -L../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/Lib/GCC --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: PID.elf
+ 
+arm-none-eabi-size   PID.elf 
+arm-none-eabi-objdump -h -S  PID.elf  > "PID.list"
+   text	   data	    bss	    dec	    hex	filename
+  16812	     24	   1832	  18668	   48ec	PID.elf
+Finished building: default.size.stdout
+ 
+Finished building: PID.list
+ 
+04:48:52 **** Incremental Build of configuration Debug for project PID ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core_A/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:151:9: warning: implicit declaration of function 'abs' [-Wimplicit-function-declaration]
+  151 |    if ((abs(temp) <= 150) && (abs(temp) > 0))
+      |         ^~~
+../Core/Src/main.c:151:7: warning: suggest explicit braces to avoid ambiguous 'else' [-Wdangling-else]
+  151 |    if ((abs(temp) <= 150) && (abs(temp) > 0))
+      |       ^
+arm-none-eabi-gcc -o "PID.elf" @"objects.list"  -l:libarm_cortexM4lf_math.a -mcpu=cortex-m4 -T"D:\git\LAB4_01\Motor_PID\PID\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="PID.map" -Wl,--gc-sections -static -L../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/Lib/GCC --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: PID.elf
+ 
+arm-none-eabi-size   PID.elf 
+arm-none-eabi-objdump -h -S  PID.elf  > "PID.list"
+   text	   data	    bss	    dec	    hex	filename
+  16812	     24	   1832	  18668	   48ec	PID.elf
+Finished building: default.size.stdout
+ 
+Finished building: PID.list
+ 
+04:51:16 **** Incremental Build of configuration Debug for project PID ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core_A/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:151:9: warning: implicit declaration of function 'abs' [-Wimplicit-function-declaration]
+  151 |    if ((abs(temp) <= 150) && (abs(temp) > 0))
+      |         ^~~
+../Core/Src/main.c:151:7: warning: suggest explicit braces to avoid ambiguous 'else' [-Wdangling-else]
+  151 |    if ((abs(temp) <= 150) && (abs(temp) > 0))
+      |       ^
+arm-none-eabi-gcc -o "PID.elf" @"objects.list"  -l:libarm_cortexM4lf_math.a -mcpu=cortex-m4 -T"D:\git\LAB4_01\Motor_PID\PID\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="PID.map" -Wl,--gc-sections -static -L../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/Lib/GCC --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: PID.elf
+ 
+arm-none-eabi-size   PID.elf 
+arm-none-eabi-objdump -h -S  PID.elf  > "PID.list"
+   text	   data	    bss	    dec	    hex	filename
+  16788	     24	   1832	  18644	   48d4	PID.elf
+Finished building: default.size.stdout
+ 
+Finished building: PID.list
+ 
+04:51:30 **** Incremental Build of configuration Debug for project PID ****
+make -j16 all 
+arm-none-eabi-size   PID.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16788	     24	   1832	  18644	   48d4	PID.elf
+Finished building: default.size.stdout
+ 
+05:00:59 **** Incremental Build of configuration Debug for project PID ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core_A/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:144:9: warning: implicit declaration of function 'abs' [-Wimplicit-function-declaration]
+  144 |    if ((abs(temp) <= 150) && (abs(temp) > 0))
+      |         ^~~
+../Core/Src/main.c:144:7: warning: suggest explicit braces to avoid ambiguous 'else' [-Wdangling-else]
+  144 |    if ((abs(temp) <= 150) && (abs(temp) > 0))
+      |       ^
+arm-none-eabi-gcc -o "PID.elf" @"objects.list"  -l:libarm_cortexM4lf_math.a -mcpu=cortex-m4 -T"D:\git\LAB4_01\Motor_PID\PID\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="PID.map" -Wl,--gc-sections -static -L../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/Lib/GCC --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: PID.elf
+ 
+arm-none-eabi-size   PID.elf 
+arm-none-eabi-objdump -h -S  PID.elf  > "PID.list"
+   text	   data	    bss	    dec	    hex	filename
+  16844	     24	   1832	  18700	   490c	PID.elf
+Finished building: default.size.stdout
+ 
+Finished building: PID.list
+ 
+05:01:47 **** Incremental Build of configuration Debug for project PID ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core_A/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:144:9: warning: implicit declaration of function 'abs' [-Wimplicit-function-declaration]
+  144 |    if ((abs(temp) <= 150) && (abs(temp) > 0))
+      |         ^~~
+../Core/Src/main.c:144:7: warning: suggest explicit braces to avoid ambiguous 'else' [-Wdangling-else]
+  144 |    if ((abs(temp) <= 150) && (abs(temp) > 0))
+      |       ^
+arm-none-eabi-gcc -o "PID.elf" @"objects.list"  -l:libarm_cortexM4lf_math.a -mcpu=cortex-m4 -T"D:\git\LAB4_01\Motor_PID\PID\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="PID.map" -Wl,--gc-sections -static -L../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/Lib/GCC --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: PID.elf
+ 
+arm-none-eabi-size   PID.elf 
+arm-none-eabi-objdump -h -S  PID.elf  > "PID.list"
+   text	   data	    bss	    dec	    hex	filename
+  16852	     24	   1832	  18708	   4914	PID.elf
+Finished building: default.size.stdout
+ 
+Finished building: PID.list
+ 
+08:10:05 **** Build of configuration Debug for project PID ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core_A/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:144:9: warning: implicit declaration of function 'abs' [-Wimplicit-function-declaration]
+  144 |    if ((abs(temp) <= 150) && (abs(temp) > 0))
+      |         ^~~
+../Core/Src/main.c:144:7: warning: suggest explicit braces to avoid ambiguous 'else' [-Wdangling-else]
+  144 |    if ((abs(temp) <= 150) && (abs(temp) > 0))
+      |       ^
+arm-none-eabi-gcc -o "PID.elf" @"objects.list"  -l:libarm_cortexM4lf_math.a -mcpu=cortex-m4 -T"D:\git\LAB4_01\Motor_PID\PID\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="PID.map" -Wl,--gc-sections -static -L../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/Lib/GCC --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: PID.elf
+ 
+arm-none-eabi-size   PID.elf 
+arm-none-eabi-objdump -h -S  PID.elf  > "PID.list"
+   text	   data	    bss	    dec	    hex	filename
+  16788	     24	   1832	  18644	   48d4	PID.elf
+Finished building: default.size.stdout
+ 
+Finished building: PID.list
+ 
+08:57:45 **** Incremental Build of configuration Debug for project PID ****
+make -j16 all 
+arm-none-eabi-size   PID.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16788	     24	   1832	  18644	   48d4	PID.elf
+Finished building: default.size.stdout
+ 
+08:58:47 **** Incremental Build of configuration Debug for project PID ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core_A/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:144:9: warning: implicit declaration of function 'abs' [-Wimplicit-function-declaration]
+  144 |    if ((abs(temp) <= 150) && (abs(temp) > 0))
+      |         ^~~
+arm-none-eabi-gcc -o "PID.elf" @"objects.list"  -l:libarm_cortexM4lf_math.a -mcpu=cortex-m4 -T"D:\git\LAB4_01\Motor_PID\PID\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="PID.map" -Wl,--gc-sections -static -L../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/Lib/GCC --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: PID.elf
+ 
+arm-none-eabi-size   PID.elf 
+arm-none-eabi-objdump -h -S  PID.elf  > "PID.list"
+   text	   data	    bss	    dec	    hex	filename
+  16764	     24	   1824	  18612	   48b4	PID.elf
+Finished building: default.size.stdout
+ 
+Finished building: PID.list
+ 
+09:01:58 **** Incremental Build of configuration Debug for project PID ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core_A/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:144:9: warning: implicit declaration of function 'abs' [-Wimplicit-function-declaration]
+  144 |    if ((abs(temp) <= 150) && (abs(temp) > 0))
+      |         ^~~
+arm-none-eabi-gcc -o "PID.elf" @"objects.list"  -l:libarm_cortexM4lf_math.a -mcpu=cortex-m4 -T"D:\git\LAB4_01\Motor_PID\PID\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="PID.map" -Wl,--gc-sections -static -L../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/Lib/GCC --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: PID.elf
+ 
+arm-none-eabi-size   PID.elf 
+arm-none-eabi-objdump -h -S  PID.elf  > "PID.list"
+   text	   data	    bss	    dec	    hex	filename
+  16372	     24	   1824	  18220	   472c	PID.elf
+Finished building: default.size.stdout
+ 
+Finished building: PID.list
+ 
+09:02:11 **** Incremental Build of configuration Debug for project PID ****
+make -j16 all 
+arm-none-eabi-size   PID.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16372	     24	   1824	  18220	   472c	PID.elf
+Finished building: default.size.stdout
+ 
+09:05:16 **** Incremental Build of configuration Debug for project PID ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core_A/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:144:9: warning: implicit declaration of function 'abs' [-Wimplicit-function-declaration]
+  144 |    if ((abs(temp) <= 150) && (abs(temp) > 0))
+      |         ^~~
+arm-none-eabi-gcc -o "PID.elf" @"objects.list"  -l:libarm_cortexM4lf_math.a -mcpu=cortex-m4 -T"D:\git\LAB4_01\Motor_PID\PID\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="PID.map" -Wl,--gc-sections -static -L../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/Lib/GCC --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: PID.elf
+ 
+arm-none-eabi-size   PID.elf 
+arm-none-eabi-objdump -h -S  PID.elf  > "PID.list"
+   text	   data	    bss	    dec	    hex	filename
+  16372	     24	   1824	  18220	   472c	PID.elf
+Finished building: default.size.stdout
+ 
+Finished building: PID.list
+ 
+09:06:22 **** Incremental Build of configuration Debug for project PID ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core_A/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:144:9: warning: implicit declaration of function 'abs' [-Wimplicit-function-declaration]
+  144 |    if ((abs(temp) <= 150) && (abs(temp) > 0))
+      |         ^~~
+arm-none-eabi-gcc -o "PID.elf" @"objects.list"  -l:libarm_cortexM4lf_math.a -mcpu=cortex-m4 -T"D:\git\LAB4_01\Motor_PID\PID\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="PID.map" -Wl,--gc-sections -static -L../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/Lib/GCC --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: PID.elf
+ 
+arm-none-eabi-size   PID.elf 
+arm-none-eabi-objdump -h -S  PID.elf  > "PID.list"
+   text	   data	    bss	    dec	    hex	filename
+  16372	     24	   1824	  18220	   472c	PID.elf
+Finished building: default.size.stdout
+ 
+Finished building: PID.list
+ 
+09:07:23 **** Incremental Build of configuration Debug for project PID ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core_A/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:144:9: warning: implicit declaration of function 'abs' [-Wimplicit-function-declaration]
+  144 |    if ((abs(temp) <= 150) && (abs(temp) > 0))
+      |         ^~~
+arm-none-eabi-gcc -o "PID.elf" @"objects.list"  -l:libarm_cortexM4lf_math.a -mcpu=cortex-m4 -T"D:\git\LAB4_01\Motor_PID\PID\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="PID.map" -Wl,--gc-sections -static -L../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/Lib/GCC --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: PID.elf
+ 
+arm-none-eabi-size   PID.elf 
+arm-none-eabi-objdump -h -S  PID.elf  > "PID.list"
+   text	   data	    bss	    dec	    hex	filename
+  16356	     24	   1824	  18204	   471c	PID.elf
+Finished building: default.size.stdout
+ 
+Finished building: PID.list
+ 
+09:09:37 **** Incremental Build of configuration Debug for project PID ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core_A/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:144:9: warning: implicit declaration of function 'abs' [-Wimplicit-function-declaration]
+  144 |    if ((abs(temp) <= 150) && (abs(temp) > 0))
+      |         ^~~
+arm-none-eabi-gcc -o "PID.elf" @"objects.list"  -l:libarm_cortexM4lf_math.a -mcpu=cortex-m4 -T"D:\git\LAB4_01\Motor_PID\PID\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="PID.map" -Wl,--gc-sections -static -L../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/Lib/GCC --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: PID.elf
+ 
+arm-none-eabi-size   PID.elf 
+arm-none-eabi-objdump -h -S  PID.elf  > "PID.list"
+   text	   data	    bss	    dec	    hex	filename
+  16372	     24	   1824	  18220	   472c	PID.elf
+Finished building: default.size.stdout
+ 
+Finished building: PID.list
+ 
+09:26:29 **** Incremental Build of configuration Debug for project PID ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core_A/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:144:9: warning: implicit declaration of function 'abs' [-Wimplicit-function-declaration]
+  144 |    if ((abs(temp) <= 150) && (abs(temp) > 0))
+      |         ^~~
+arm-none-eabi-gcc -o "PID.elf" @"objects.list"  -l:libarm_cortexM4lf_math.a -mcpu=cortex-m4 -T"D:\git\LAB4_01\Motor_PID\PID\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="PID.map" -Wl,--gc-sections -static -L../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/Lib/GCC --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: PID.elf
+ 
+arm-none-eabi-size   PID.elf 
+arm-none-eabi-objdump -h -S  PID.elf  > "PID.list"
+   text	   data	    bss	    dec	    hex	filename
+  16372	     24	   1824	  18220	   472c	PID.elf
+Finished building: default.size.stdout
+ 
+Finished building: PID.list
+ 
