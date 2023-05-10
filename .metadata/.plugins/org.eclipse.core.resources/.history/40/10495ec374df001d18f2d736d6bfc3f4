@@ -130,7 +130,7 @@ int main(void) {
 
 		/* USER CODE BEGIN 3 */
 		QEIReadRaw = __HAL_TIM_GET_COUNTER(&htim5);
-		currentdegree = (QEIReadRaw / 3072.0) * 360.0;
+		currentdegree = (QEIReadRaw / 3071.0) * 360.0;
 		static uint64_t timestamp = 0;
 		if (HAL_GetTick() > timestamp) {
 			timestamp = HAL_GetTick() + 50;

@@ -130,7 +130,7 @@ int main(void) {
 
 		/* USER CODE BEGIN 3 */
 		QEIReadRaw = __HAL_TIM_GET_COUNTER(&htim5);
-		currentdegree = (QEIReadRaw / 3072.0) * 360.0;
+		currentdegree = (QEIReadRaw / 3071.0) * 360.0;
 		static uint64_t timestamp = 0;
 		if (HAL_GetTick() > timestamp) {
 			timestamp = HAL_GetTick() + 50;
@@ -141,9 +141,9 @@ int main(void) {
 			//TIM_CHANNEL_1 CCW current +
 			//TIM_CHANNEL_2 CW current -
 
-			if ((abs(temp) <=150) && (abs(temp) > 0))
-				if (degreefeedback <= 125) {
-					degreefeedback = 125;
+			if ((abs(temp) <= 150) && (abs(temp) > 0))
+				if (degreefeedback <= 120) {
+					degreefeedback = 140;
 				}
 //
 			if (setdegree - currentdegree == 0) {

@@ -57,10 +57,10 @@ static void MX_TIM1_Init(void);
 static void MX_TIM5_Init(void);
 /* USER CODE BEGIN PFP */
 int QEIReadRaw = 0;
-int currentdegree = 0;
+float currentdegree = 0;
 int count = 0;
-int degreefeedback = 0;
-int setdegree = 0;
+float degreefeedback = 0;
+float setdegree = 0;
 int temp = 0;
 float eintegral = 0;
 float Kp = 5;
